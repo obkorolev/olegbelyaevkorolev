@@ -1,5 +1,5 @@
 <h1 style="text-align: center;color: #125F63; font-size: 2em; font-weight: bold; margin-bottom: 10px;">
-    Hey, I'm happy you are here
+    Hey, I'm happy you are here!
 </h1>
 <br>
 <br>
