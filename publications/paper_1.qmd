@@ -1,0 +1,51 @@
+<style>
+  /* Contenedor de la imagen */
+  .hero-container {
+    width: 100%;
+    text-align: center; /* Centra el contenido dentro del contenedor */
+  }
+  
+  /* Imagen de fondo sin tintado */
+  .hero-image {
+    width: 100%;
+    height: auto; /* Mantiene la proporción original de la imagen */
+    object-fit: cover;
+  }
+  
+  /* Estilo del título del artículo */
+  .article-title {
+    color: #f7fff7; /* Color del texto del título */
+    font-size: 1.5em; /* Ajusta el tamaño del texto según sea necesario */
+    font-family: sans-serif; /* Fuente sans-serif */
+    margin-top: 20px; /* Espacio entre la imagen y el título */
+    text-align: center; /* Centra el texto */
+  }
+</style>
+
+<!-- Título del artículo como enlace al DOI -->
+<div class="article-title">
+  <a href="https://www.nature.com/articles/s41467-023-37132-5" style="color: #f7fff7; text-decoration: none;">
+    The contribution of penguin guano to the Southern Ocean iron pool
+  </a>
+</div>
+
+<p style="text-align: center;">
+  <img src="natcomlogo.png" alt="NatCom Logo" style="height: 25px;">
+</p>
+
+
+<div style="text-align: center;">
+  <span style="font-size: 0.9em; color: #78cdd7;">
+  <strong>Oleg Belyaev</strong>, Erica Sparaventi, Gabriel Navarro, Araceli Rodríguez-Romero & Antonio Tovar-Sánchez.
+  
+----
+   
+<iframe src="pdfs/1_The contribution of penguin guano to the Southern Ocean iron pool.pdf" width="100%" height="800"></iframe>
+
+```{=html}
+<p style="text-align: center; margin: 30px;">
+    <a href="/publications/index.qmd" style="color: #125F63; text-decoration: underline; font-size: 1em; font-weight: bold;">
+        Back to publications
+    </a>
+</p>
+```

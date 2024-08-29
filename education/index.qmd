@@ -1,0 +1,59 @@
+<h1 style="color: #125F63;text-align: center;">Education</h1>
+
+---
+
+## <span style="color: #f7fff7;font-size: 0.8em;"><i class="fas fa-graduation-cap" style="color:#00b4d8;"></i> PhD in Marine Science and Technology</span>
+
+<div style="margin-left: 30px;">
+  <p style="font-weight: normal;color:#f7fff7">Cádiz University, Spain</p>
+  <p style="font-size: 0.9em;">January 2024 – ongoing</p>
+  
+  <ul style="font-size: 0.9em;color:#f7fff7">
+      <li>Antarctic Biogeochemistry and Remote Sensing research.</li>
+  </ul>
+</div>
+---
+
+## <span style="color: #f7fff7;font-size: 0.8em;"><i class="fas fa-graduation-cap" style="color:#00b4d8;"></i> MSc in Oceanography</span>
+
+<div style="margin-left: 30px;">
+  <p style="font-weight: normal;color:#f7fff7">Cadiz University - ICMAN-CSIC, Spain</p>
+  <p style="font-size: 0.9em;">September 2020 – September 2021</p>
+  <p style= "color:#f7fff7">Deep understanding of biological, physical, chemical and geological processes in the coastal oceanic systems.</p>
+  <p style= "color:#f7fff7">Courses included:</p>
+  <ul style="font-size: 0.9em;color:#f7fff7">
+      <li>Physical oceanography</li>
+      <li>Chemical oceanography</li>
+      <li>Ecological oceanography</li>
+      <li>Geological oceanography</li>
+  </ul>
+</div>
+---
+
+## <span style="color: #f7fff7;font-size: 0.8em;"><i class="fas fa-graduation-cap" style="color:#00b4d8;"></i> BSc Molecular Biology (Erasmus+)</span>
+
+<div style="margin-left: 30px;">
+  <p style="font-weight: normal;color:#f7fff7">Umeå University, Sweden</p>
+  <p style="font-size: 0.9em;">September 2018 – September 2019</p>
+
+  <p style= "color:#f7fff7">Advanced molecular biology and genetics laboratory techniques.</p>
+  <p style= "color:#f7fff7">Courses included:</p>
+  <ul style="font-size: 0.9em;color:#f7fff7">
+      <li>Molecular Genetics</li>
+      <li>Neurobiology</li>
+      <li>Microbiology</li>
+  </ul>
+</div>
+---
+
+## <span style="color: #f7fff7;font-size: 0.8em;"><i class="fas fa-graduation-cap" style="color:#00b4d8;"></i> BSc in Biology</span>
+
+<div style="margin-left: 30px;">
+  <p style="font-weight: normal;color:#f7fff7">Alcala University, Spain</p>
+  <p style="font-size: 0.9em;">September 2015 – September 2018</p>
+
+  <p style= "color:#f7fff7">Understanding of the basic structures and dynamics of living organisms and its interactions with their environment.</p>
+</div>
+---
+
+

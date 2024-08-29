@@ -1,0 +1,256 @@
+/*-- scss:defaults --*/
+
+/* From https://github.com/andrewheiss/ath-quarto/blob/main/html/ath.scss */
+
+$white:    #ffffff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #373a3c !default;
+$gray-900: #212529 !default;
+$black:    #000000 !default;
+
+$blue:    #2780e3 !default;
+$indigo:  #6610f2 !default;
+$purple:  #170C3A !default;
+$pink:    #A52C60 !default;
+$red:     #CF4446 !default;
+$orange:  #EE6A24 !default;
+$light-orange:  #FB9E07 !default;
+$yellow:  #F6D645 !default;
+$green:   #118230 !default;
+$teal:    #068194 !default;
+$cyan:    #3093CF !default;
+
+$primary_dark:    #001219 !default;
+$primary_light:    #FFF7EC !default;
+$new_orange:    #F39075 !default;
+$barrita:    #125F63 !default;
+$sanddollar:    #dcd2cc !default;
+$ivory:    #ede7dc !default;
+$carafe:    #523a28 !default;
+$marron:    #ec810f !default;
+$marron_2:    #8f250c !default;
+$for_links: #fec601;
+$for_text: #f7fff7;
+$link_hover: #e4572e;
+
+$primary:   $barrita!default;
+$secondary: $carafe !default;
+$success:   $green !default;
+$info:      $cyan !default;
+$warning:   $orange !default;
+$danger:    $red !default;
+$light:     $carafe !default;
+$dark:      $black !default;
+
+#profile-img {
+    width: 300px; /* Adjust the size as needed */
+    border: 3px solid #f7fff7; /* Add a border */
+    border-radius: 50%; /* Make it circular */
+    padding: 5px; /* Add some padding */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Optional shadow */
+    display: block;
+    margin: 20px auto; /* Center the image */
+}
+
+#gallery {
+   line-height:0;
+   -webkit-column-count:5; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:5;
+   -moz-column-gap:5px;
+   column-count:5;
+   column-gap:5px;
+}
+
+#gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+}
+
+@media (max-width: 1200px) {
+   #gallery {
+    -moz-column-count:    4;
+    -webkit-column-count: 4;
+    column-count:         4;
+   }
+}
+
+@media (max-width: 1000px) {
+   #gallery {
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
+   }
+}
+
+@media (max-width: 800px) {
+   #gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
+}
+
+@media (max-width: 400px) {
+   #gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
+}
+
+// Links
+$link-color: $white;
+$link-decoration: $white;
+$link-hover-color: $link_hover;
+$link-hover-decoration: $link_hover;
+
+// Footer - Debajo el background (bg) y el texto (fg)
+$footer-bg: $barrita !default;
+$footer-fg: $primary_light !default;
+
+// Inline code
+$code-bg: $ivory !default;
+$code-color: $ivory !default;
+
+// TOC
+$toc-color: $primary_light;
+$toc-font-size: 1em;
+
+// Code copy
+$btn-code-copy-color-active: $primary_light !default;
+
+/*-- scss:rules --*/
+
+// Cambiar el color del título del sitio web
+.navbar-brand {
+  color: $for_text !important; // Reemplaza con el color deseado
+}
+
+// También puedes necesitar ajustar el color del texto del título en el encabezado
+.site-title {
+  color: $for_text; // Reemplaza con el color deseado
+}
+
+body {
+    background-image: url('img/back.png');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* This makes the image static */
+    background-color: #001219; /* Color de fondo de toda la página */
+    color: $barrita; /* Color de texto predeterminado */
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Puts the video behind everything else */
+}
+
+/* Add some content on top of the video/page */
+.content {
+  position: relative; /* Ensure content stays above the video */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  z-index: 1; /* Ensure content stays above the video */
+}
+
+.social-icons {
+    margin-top: 15px; /* Adjust spacing as needed */
+    text-align: center; /* Center the icons */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Add spacing between the icons */
+    text-decoration: none; /* Remove underline */
+    color: #f7fff7; /* Default color for the icons */
+    transition: color 0.1s ease; /* Smooth transition for color change */
+}
+
+.social-icons a:hover {
+    color: #00b4d8; /* Color change on hover */
+}
+
+.social-icons i {
+    margin-right: 5px; /* Adjust icon spacing */
+    font-size: 24px; /* Change this value to adjust the size of the icons */
+}
+.navbar-nav .nav-link {
+    color: $for_text; /* Color de los enlaces de navegación */
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline; /* Subrayado en lugar de cambio de color */
+}
+
+.nav-footer {
+    align-items: flex-start;  // Align all flex items to the top
+    flex-wrap: wrap;
+    border: 0 !important;
+    min-height: 3em;
+    //font-family: $footer-font-family;
+
+    a {
+        color: #f7fff7;
+    }
+
+    .faux-block {
+        display: block;
+        padding-bottom: 0.4em;
+    }
+
+    // In the default Quarto template, .nav-footer-center has position: absolute 
+    // turned on, which makes the div not be a flex item
+    // This changes that so that it *is* a flex item
+    .nav-footer-center {
+        text-align: center;
+        position: inherit;
+        margin-top: 0;
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            margin-top: 0.5em;
+            margin-bottom: 1.5em;
+        }
+    }
+
+    // When the screen is medium or smaller, make each footer chunk be 100% width 
+    // and centered; otherwise make them be 33% width and left/right/centered
+    .nav-footer-left,
+    .nav-footer-right,
+    .nav-footer-center {
+        text-align: center;
+        width: 100%;
+        min-height: 2em;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, md)) {
+        .nav-footer-left {
+            text-align: left;
+        }
+
+        .nav-footer-right {
+            text-align: right;
+        }
+
+        .nav-footer-left,
+        .nav-footer-right,
+        .nav-footer-center {
+            flex: 1 1 33%;
+        }
+    }
+}
+
+

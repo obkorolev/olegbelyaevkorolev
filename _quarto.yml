@@ -1,0 +1,68 @@
+# This file controls the settings for your Quarto template from www.marvinschmitt.com
+
+# website settings
+website:
+  title: "Oleg Belyaev"                      
+  image: img/DSC_0566 - copia.jpg
+  
+  favicon: img/svg_antarctica.svg
+  
+  # start of the navigation bar at the top of the website
+  navbar:
+    pinned: true
+    logo: /img/svg_antarctica.svg
+    
+
+    right:
+# your sub-pages
+      - text: "About"
+        href: about/index.qmd
+      - text: "Education"
+        href: education/index.qmd
+      - text: "Experience"
+        href: experience/index.qmd
+      - text: "Publications"
+        href: publications/index.qmd
+      - text: "Gallery"
+        href: media/index.qmd
+  
+  
+
+# Don't touch unless you know what you are doing :) ------------
+  search: 
+    location: navbar
+    type: textbox
+  page-footer: 
+    #left: |
+     # <span class="faux-block">&#169; 2024 Alejandro Román</span>
+   # center: |
+    #  <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
+    right: |
+      <span class="faux-block" style="color: #f7fff7;">&#169; 2024 Oleg Belyaev - Made with <a href="https://quarto.org/" target="_blank" style="color: #F39075; text-decoration: underline;">Quarto</a></span>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    fontsize: 1.1em
+    theme: 
+      - pulse
+      - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    include-in-header: header.html

@@ -1,0 +1,26 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  
+  <title>Image Gallery</title>
+  <meta name="description" content="Responsive Image Gallery">
+  <meta name="author" content="Tim Wells">
+  
+  <style type="text/css">
+  </style>
+</head>
+<body>
+<div id="gallery">
+  
+   <img src="img/1.jpeg">
+   <img src="img/2.jpeg">
+   <img src="img/3.jpeg">
+   <img src="img/4.jpeg">
+   <img src="img/5.jpeg">
+   <img src="img/6.jpeg">
+   <img src="img/7.jpeg">
+   
+  </div>
+ 
+ </body>
+</html>

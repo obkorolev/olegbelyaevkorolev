@@ -1,0 +1,57 @@
+<h1 style="color: #125F63;text-align: center;">Research Experience</h1>
+
+---
+
+## <span style="color: #f7fff7;font-size: 0.8em;"><i class="fas fa-briefcase" style="color:#00b4d8;"></i><i class="fas fa-graduation-cap" style="color:#00b4d8; margin-left: 10px;"></i> PhD in Marine Science and Technology</span>
+
+<div style="margin-left: 30px;">
+  <p style="font-weight: normal;color:#f7fff7">ICMAN-CSIC, Cádiz, Spain</p>
+  <p style="font-size: 0.9em;">January 2024 – ongoing</p>
+  
+  <p style= "color:#f7fff7">Antarctic Biogeochemistry and Remote Sensing research.</p>
+</div>
+---
+
+## <span style="color: #f7fff7;font-size: 0.8em;"><i class="fas fa-briefcase" style="color:#00b4d8;"></i> Remote Sensing Scientist - Marine Strategies Project</span>
+
+<div style="margin-left: 30px;">
+  <p style="font-weight: normal;color:#f7fff7">ICMAN-CSIC, Cádiz, Spain</p>
+  <p style="font-size: 0.9em;">May 2023 – December 2023</p>
+  
+  <p style= "color:#f7fff7">Responsibilities include:</p>
+  <ul style="font-size: 0.9em;color:#f7fff7">
+      <li>Worked on satellite-based algorithms for the detection of marine heat events.</li>
+      <li>Continued the development of the Andalusian Marine Observatory.</li>
+  </ul>
+</div>
+---
+
+## <span style="color: #f7fff7;font-size: 0.8em;"><i class="fas fa-briefcase" style="color:#00b4d8;"></i> Remote Sensing Scientist - EUROSEA Project</span>
+
+<div style="margin-left: 30px;">
+  <p style="font-weight: normal;color:#f7fff7">Marine Institute, Galway, Ireland</p>
+  <p style="font-size: 0.9em;">August 2022</p>
+  
+  <p style= "color:#f7fff7">Responsibilities include:</p>
+  <ul style="font-size: 0.9em;color:#f7fff7">
+      <li>Collaboration at Galway’s Marine Institute within the framework of the EuroSea project for the development of an observation and warning system for risks derived from extreme marine events.</li>
+  </ul>
+</div>
+---
+
+## <span style="color: #f7fff7;font-size: 0.8em;"><i class="fas fa-briefcase" style="color:#00b4d8;"></i> Remote Sensing Scientist - Sat4Algae Project</span>
+
+<div style="margin-left: 30px;">
+  <p style="font-weight: normal;color:#f7fff7">ICMAN-CSIC</p>
+  <p style="font-size: 0.9em;">November 2021 – July 2022</p>
+  
+  <p style= "color:#f7fff7">Responsibilities include:</p>
+  <ul style="font-size: 0.9em;color:#f7fff7">
+      <li>Generated satellite tools for the detection of algal blooms, focusing on both macroalgae and microalgae.</li>
+    <li>Contributed to the development of the Andalusian Marine Observatory as part of the Sat4Algae project.</li>
+    <li>Collaborated in multidisciplinary teams to enhance satellite-based environmental monitoring capabilities.</li>
+  </ul>
+</div>
+---
+
+

@@ -1,0 +1,52 @@
+<style>
+  /* Contenedor de la imagen */
+  .hero-container {
+    width: 100%;
+    text-align: center; /* Centra el contenido dentro del contenedor */
+  }
+  
+  /* Imagen de fondo sin tintado */
+  .hero-image {
+    width: 100%;
+    height: auto; /* Mantiene la proporción original de la imagen */
+    object-fit: cover;
+  }
+  
+  /* Estilo del título del artículo */
+  .article-title {
+    color: #f7fff7; /* Color del texto del título */
+    font-size: 1.5em; /* Ajusta el tamaño del texto según sea necesario */
+    font-family: sans-serif; /* Fuente sans-serif */
+    margin-top: 20px; /* Espacio entre la imagen y el título */
+    text-align: center; /* Centra el texto */
+  }
+</style>
+
+<!-- Título del artículo como enlace al DOI -->
+<div class="article-title">
+  <a href="https://www.nature.com/articles/s43247-024-01553-x" style="color: #f7fff7; text-decoration: none;">
+    Marine heatwaves in a shifting Southern Ocean induce dynamical changes in primary production
+  </a>
+</div>
+
+<p style="text-align: center;">
+  <img src="commsearth3.png" alt="CommsEarth Logo" style="height: 20px;">
+</p>
+
+
+<div style="text-align: center;">
+  <span style="font-size: 0.9em; color: #78cdd7;">
+  Manuel Fernández-Barba, <strong>Oleg Belyaev</strong>, I. Emma Huertas & Gabriel Navarro.
+
+----
+   
+<iframe src="pdfs/3_Marine heatwaves in a shifting Southern Ocean induce dynamical changes in primary production.pdf" width="100%" height="800"></iframe>
+   
+
+```{=html}
+<p style="text-align: center; margin: 30px;">
+    <a href="/publications/index.qmd" style="color: #125F63; text-decoration: underline; font-size: 1em; font-weight: bold;">
+        Back to publications
+    </a>
+</p>
+```

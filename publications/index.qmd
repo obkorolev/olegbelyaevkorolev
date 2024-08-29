@@ -1,0 +1,166 @@
+<h1 style="color: #125F63; text-align: center;">Publications</h1>
+
+----
+
+## <a href=none style="color:'white'; font-size: 0.8em; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">Assessing topographic features and population abundance in an antarctic penguin colony through UAV-based deep-learning models</a>
+
+<div style="display: flex; align-items: center;">
+  <div style="text-align: justify;">
+  <p> 
+  <img src="elsevier2.png" alt="Elsevier Logo" style="height: 50px;">
+</p>
+
+<span style="font-size: 0.9em; color: #81c14b">
+   Accepted for publication
+    </span>
+    
+  <span style="font-size: 0.9em; color: #78cdd7">
+   <strong>Oleg Belyaev</strong>, Alejandro Román, Josabel Belliure, Gabriel Navarro, Luis Barbero & Antonio Tovar-Sánchez.
+    </span>
+    <br>
+    <br>
+  </div>
+</div>
+
+----
+
+## <a href="paper_4.qmd" style="color:'white'; font-size: 0.8em; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">Hydrothermal alteration of seawater biogeochemistry in Deception Island (South Shetland Islands, Antarctica)</a>
+
+<div style="display: flex; align-items: center;">
+  <img src="fmars.jpg" style="height: 250px; width: auto; object-fit: contain; margin-right: 75px;border-radius: 5px;"/>
+  <div style="text-align: justify;">
+  <p> 
+  <img src="fmar.png" alt="Frontiers in Marine Science Logo" style="height: 40px;">
+</p>
+
+<span style="font-size: 0.9em;">
+   August 16, 2024
+    </span>
+    
+  <span style="font-size: 0.9em; color: #78cdd7">
+   <strong>Oleg Belyaev</strong>, I. Emma Huertas, Gabriel Navarro, Silvia Amaya-Vías, Mercedes de la Paz, Erica Sparaventi, Camila F. Sukekava, Luis M. Laglera & Antonio Tovar-Sánchez.
+    </span>
+    <br>
+    <br>
+    <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1432122" target="_blank" style="text-decoration: none;">
+      <img src="DOI_logo.png" alt="PDF Icon" style="height: 30px; width: auto; vertical-align: middle; margin-right: 4px;">
+    </span>
+      </a>
+      <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1432122/pdf" target="_blank" style="text-decoration: none;">
+      <img src="pdf-svgrepo-com.svg" alt="PDF Icon" style="height: 30px; width: auto; vertical-align: middle; margin-right: 4px;">
+      <a href="bibfiles/paper4.bib" download="paper4.bib" style="text-decoration: none;">
+  <img src="bib_logo.svg" alt="BibTeX Icon" style="height: 20px; width: auto; vertical-align: middle; margin-right: 4px;">
+  </a>
+
+  <div data-badge-type="1" data-doi="https://doi.org/10.3389/fmars.2024.1432122" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+  </div>
+</div>
+
+----
+
+## <a href="paper_3.qmd"  style="color:'white'; font-size: 0.8em; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">Marine heatwaves in a shifting Southern Ocean induce dynamical changes in primary production</a>
+
+<div style="display: flex; align-items: center;">
+  <img src="natcommsearth.jpg" style="height: 250px; width: auto; object-fit: contain; margin-right: 75px; border-radius: 5px;"/>
+  <div style="text-align: justify;">
+  <p> 
+  <img src="commsearth3.png" alt="CommsEarthEnv Logo" style="height: 20px;">
+</p>
+
+<span style="font-size: 0.9em;">
+   July 27, 2024
+    </span>
+    
+  <span style="font-size: 0.9em; color: #78cdd7">
+   Manuel Fernández-Barba, <strong>Oleg Belyaev</strong>, I. Emma Huertas & Gabriel Navarro.
+    </span>
+    <br>
+    <br>
+    <a href="https://doi.org/10.1038/s43247-024-01553-x" target="_blank" style="text-decoration: none;">
+      <img src="DOI_logo.png" alt="PDF Icon" style="height: 30px; width: auto; vertical-align: middle; margin-right: 4px;">
+    </span>
+      </a>
+      <a href="https://www.nature.com/articles/s43247-024-01553-x.pdf" target="_blank" style="text-decoration: none;">
+      <img src="pdf-svgrepo-com.svg" alt="PDF Icon" style="height: 30px; width: auto; vertical-align: middle; margin-right: 4px;">
+      <a href="bibfiles/paper3.bib" download="paper3.bib" style="text-decoration: none;">
+  <img src="bib_logo.svg" alt="BibTeX Icon" style="height: 20px; width: auto; vertical-align: middle; margin-right: 4px;">
+  </a>
+
+<div data-badge-type="1" data-doi="https://doi.org/10.1038/s43247-024-01553-x" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+
+  </div>
+</div>
+
+----
+
+## <a href="paper_2.qmd"  style="color:'white'; font-size: 0.8em; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">An observational and warning system for the aquaculture sector</a>
+
+<div style="display: flex; align-items: center;">
+  <img src="fmars_diego.jpg" style="height: 250px; width: auto; object-fit: contain; margin-right: 75px;border-radius: 5px;"/>
+  <div style="text-align: justify;">
+  <p> 
+  <img src="fmar.png" alt="Frontiers in Marine Science Logo" style="height: 40px;">
+</p>
+  <span style="font-size: 0.9em;">
+   January 16, 2024
+    </span>
+    
+  <span style="font-size: 0.9em; color: #78cdd7">
+   Pereiro D., <strong>Oleg Belyaev</strong>, Dunbar M. B., Conway A., Dabrowski T., Graves I., Navarro G., Nolan G., Pearlman J., Simpson P. & Cusack C.
+    </span>
+    <br>
+    <br>
+    <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2023.1288610/full" target="_blank" style="text-decoration: none;">
+      <img src="DOI_logo.png" alt="PDF Icon" style="height: 30px; width: auto; vertical-align: middle; margin-right: 4px;">
+    </span>
+      <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2023.1288610/full/pdf" target="_blank" style="text-decoration: none;">
+      <img src="pdf-svgrepo-com.svg" alt="PDF Icon" style="height: 30px; width: auto; vertical-align: middle; margin-right: 4px;">
+      <a href="bibfiles/paper2.bib" download="paper2.bib" style="text-decoration: none;">
+  <img src="bib_logo.svg" alt="BibTeX Icon" style="height: 20px; width: auto; vertical-align: middle; margin-right: 4px;">
+  </a>
+  
+<div data-badge-type="1" data-doi="https://doi.org/10.3389/fmars.2023.1288610" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+
+  </div>
+</div>
+
+----
+
+## <a href="paper_1.qmd" style="color:'white'; font-size: 0.8em; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">The contribution of penguin guano to the Southern Ocean iron pool</a>
+
+<div style="display: flex; align-items: center;">
+  <img src="natcom.jpg" style="height: 250px; width: auto; object-fit: contain; margin-right: 75px;border-radius: 5px;"/>
+  <div style="text-align: justify;">
+  <p> 
+  <img src="natcomlogo.png" alt="NatComLogo" style="height: 25px;">
+</p>
+  <span style="font-size: 0.9em;">
+   April 11, 2023
+    </span>
+    
+  <span style="font-size: 0.9em; color: #78cdd7">
+   <strong>Oleg Belyaev</strong>, Erica Sparaventi, Gabriel Navarro, Araceli Rodríguez-Romero & Antonio Tovar-Sánchez.
+    </span>
+    <br>
+    <br>
+    <a href="https://www.nature.com/articles/s41467-023-37132-5" target="_blank" style="text-decoration: none;">
+      <img src="DOI_logo.png" alt="PDF Icon" style="height: 30px; width: auto; vertical-align: middle; margin-right: 4px;">
+    </span>
+      <a href="https://www.nature.com/articles/s41467-023-37132-5.pdf" target="_blank" style="text-decoration: none;">
+        <img src="pdf-svgrepo-com.svg" alt="PDF Icon" style="height: 30px; width: auto; vertical-align: middle; margin-right: 4px;">
+        <a href="bibfiles/paper1.bib" download="paper1.bib" style="text-decoration: none;">
+  <img src="bib_logo.svg" alt="BibTeX Icon" style="height: 20px; width: auto; vertical-align: middle; margin-right: 4px;">
+    </span>
+</a>
+
+  <div data-badge-type="1" data-doi="https://doi.org/10.1038/s41467-023-37132-5" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+
+  </div>
+</div>
+
+----
