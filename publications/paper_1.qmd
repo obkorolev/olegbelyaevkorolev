@@ -24,7 +24,7 @@
 
 <!-- Título del artículo como enlace al DOI -->
 <div class="article-title">
-  <a href="https://www.nature.com/articles/s41467-023-37132-5" style="color: #f7fff7; text-decoration: none;">
+  <a href="https://www.nature.com/articles/s41467-023-37132-5" style="color: #f7fff7;font-family: 'Jost', sans-serif; text-decoration: none;">
     The contribution of penguin guano to the Southern Ocean iron pool
   </a>
 </div>

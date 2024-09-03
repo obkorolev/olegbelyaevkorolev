@@ -24,7 +24,7 @@
 
 <!-- Título del artículo como enlace al DOI -->
 <div class="article-title">
-  <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1432122" style="color: #f7fff7; text-decoration: none;">
+  <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1432122" style="color: #f7fff7; font-family: 'Jost', sans-serif;text-decoration: none;">
     Hydrothermal alteration of seawater biogeochemistry in Deception Island (South Shetland Islands, Antarctica)
   </a>
 </div>

@@ -1,8 +1,8 @@
-<h1 style="color: #125F63;text-align: center;">Research Experience</h1>
+<h1 style="color: #125F63;text-align: center;font-family: 'Jost', sans-serif;">Research Experience</h1>
 
 ---
 
-## <span style="color: #f7fff7;font-size: 0.8em;"><i class="fas fa-briefcase" style="color:#00b4d8;"></i><i class="fas fa-graduation-cap" style="color:#00b4d8; margin-left: 10px;"></i> PhD in Marine Science and Technology</span>
+## <span style="color: #f7fff7;font-size: 0.8em;font-family: 'Jost', sans-serif;"><i class="fas fa-briefcase" style="color:#00b4d8;"></i><i class="fas fa-graduation-cap" style="color:#00b4d8; margin-left: 10px;"></i> PhD in Marine Science and Technology</span>
 
 <div style="margin-left: 30px;">
   <p style="font-weight: normal;color:#f7fff7">ICMAN-CSIC, Cádiz, Spain</p>
@@ -12,7 +12,7 @@
 </div>
 ---
 
-## <span style="color: #f7fff7;font-size: 0.8em;"><i class="fas fa-briefcase" style="color:#00b4d8;"></i> Remote Sensing Scientist - Marine Strategies Project</span>
+## <span style="color: #f7fff7;font-size: 0.8em;font-family: 'Jost', sans-serif;"><i class="fas fa-briefcase" style="color:#00b4d8;"></i> Remote Sensing Scientist - Marine Strategies Project</span>
 
 <div style="margin-left: 30px;">
   <p style="font-weight: normal;color:#f7fff7">ICMAN-CSIC, Cádiz, Spain</p>
@@ -26,7 +26,7 @@
 </div>
 ---
 
-## <span style="color: #f7fff7;font-size: 0.8em;"><i class="fas fa-briefcase" style="color:#00b4d8;"></i> Remote Sensing Scientist - EUROSEA Project</span>
+## <span style="color: #f7fff7;font-size: 0.8em;font-family: 'Jost', sans-serif;"><i class="fas fa-briefcase" style="color:#00b4d8;"></i> Remote Sensing Scientist - EUROSEA Project</span>
 
 <div style="margin-left: 30px;">
   <p style="font-weight: normal;color:#f7fff7">Marine Institute, Galway, Ireland</p>
@@ -39,7 +39,7 @@
 </div>
 ---
 
-## <span style="color: #f7fff7;font-size: 0.8em;"><i class="fas fa-briefcase" style="color:#00b4d8;"></i> Remote Sensing Scientist - Sat4Algae Project</span>
+## <span style="color: #f7fff7;font-size: 0.8em;font-family: 'Jost', sans-serif;"><i class="fas fa-briefcase" style="color:#00b4d8;"></i> Remote Sensing Scientist - Sat4Algae Project</span>
 
 <div style="margin-left: 30px;">
   <p style="font-weight: normal;color:#f7fff7">ICMAN-CSIC</p>

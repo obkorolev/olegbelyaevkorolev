@@ -24,7 +24,7 @@
 
 <!-- Título del artículo como enlace al DOI -->
 <div class="article-title">
-  <a href="https://www.nature.com/articles/s43247-024-01553-x" style="color: #f7fff7; text-decoration: none;">
+  <a href="https://www.nature.com/articles/s43247-024-01553-x" style="color: #f7fff7; font-family: 'Jost', sans-serif;text-decoration: none;">
     Marine heatwaves in a shifting Southern Ocean induce dynamical changes in primary production
   </a>
 </div>
