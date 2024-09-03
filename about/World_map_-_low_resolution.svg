@@ -1120,7 +1120,7 @@
 			<use xlink:href="#SVGID_00000034081629967521199860000002115747096604259262_"  style="overflow:visible;"/>
 		</clipPath>
 		
-			<path id="east_antarctica" onmouseover="this.style.fill='#ff0000';" onmouseout="this.style.fill='#d4d4d4';" style="clip-path:url(#SVGID_00000044163027201892718130000017400997027288095903_);fill:#D4D4D4;" d="
+			<path id="east_antarctica" onmouseover="this.style.fill='#00b4d8';" onmouseout="this.style.fill='#00b4d8';" style="clip-path:url(#SVGID_00000044163027201892718130000017400997027288095903_);fill:#00b4d8;" d="
 			M388.5,623l3.8-5.1l14.9-7.7l2.5-5.5l6.4-1.3l6-7.7l6-0.4l1.3-6l5.1-3.8l4.3,1.3l12.3-3.8l3,3l5.5,0.4l5.1-2.5l30.6-0.4l11.1,3
 			l14-3l4.7,0.4l1.3-4.3h4.7l6.4,6.8l11.9-7.7l13.2-3.8l4.7,3l0.4-6l6.8-0.8l7.2,3.4v3.4l18.3,7.7l5.1-0.4l2.1,2.5l-6,6.8v4.7l5.5,3
 			l1.3-3l25.1-9.8l18.3-1.7l3.8,2.1l14.5,2.1l3.4,1.3l4.7-2.5l6.8-0.4l6.4,4.7l0.4,5.1l14.5-3l2.1,0.8l0.8,4.7l13.2,4.3l4.3-3
@@ -1135,7 +1135,7 @@
 			<use xlink:href="#SVGID_00000169527120383294990510000015930139448816946591_"  style="overflow:visible;"/>
 		</clipPath>
 		
-			<path id="antarctic_peninsula" onmouseover="this.style.fill='#ff0000';" onmouseout="this.style.fill='#d4d4d4';" style="clip-path:url(#SVGID_00000140713657086866207100000012058911543812777862_);fill:#D4D4D4;" d="
+			<path id="antarctic_peninsula" onmouseover="this.style.fill='#00b4d8';" onmouseout="this.style.fill='#00b4d8';" style="clip-path:url(#SVGID_00000140713657086866207100000012058911543812777862_);fill:#00b4d8;" d="
 			M260,623l13.6-3.8l0.9-3.8L289,612l8.5,2.1l18.7-7.7l-0.4-8.1l-5.5-8.5l1.3-2.1l-2.1-5.5v-6h3.4l-2.1-4.3l15.3-13.2l-0.4,6l-3,0.8
 			l-3,5.1l3,1.3l-3,4.3l-3.4-0.8l-1.7,3.8l0.4,5.1l5.1-0.4l3.4,4.7l1.3,6l6.8,8.5l0.4,10.6l-2.5,1.3l2.1,5.5l-1.3,2.1L260,623
 			L260,623z"/>
@@ -1149,7 +1149,7 @@
 			<use xlink:href="#SVGID_00000071521820966490937890000011314787752639321217_"  style="overflow:visible;"/>
 		</clipPath>
 		
-			<path id="thurston" onmouseover="this.style.fill='#ff0000';" onmouseout="this.style.fill='#d4d4d4';" style="clip-path:url(#SVGID_00000158719966057577771090000016005822275782189748_);fill:#D4D4D4;" d="
+			<path id="thurston" onmouseover="this.style.fill='#00b4d8';" onmouseout="this.style.fill='#00b4d8';" style="clip-path:url(#SVGID_00000158719966057577771090000016005822275782189748_);fill:#00b4d8;" d="
 			M250.2,615.3l5.1-0.8l2.1,1.7l-0.9,2.1l-0.4,2.5l-3,1.3l-2.1-2.5h-8.5v-1.7l3.8-0.8L250.2,615.3L250.2,615.3z"/>
 	</g>
 	<g>
@@ -1161,7 +1161,7 @@
 			<use xlink:href="#SVGID_00000116926709909790976660000008097045640725652135_"  style="overflow:visible;"/>
 		</clipPath>
 		
-			<path id="alexander" onmouseover="this.style.fill='#ff0000';" onmouseout="this.style.fill='#d4d4d4';" style="clip-path:url(#SVGID_00000103958261980824233050000001850650150614232740_);fill:#D4D4D4;" d="
+			<path id="alexander" onmouseover="this.style.fill='#00b4d8';" onmouseout="this.style.fill='#00b4d8';" style="clip-path:url(#SVGID_00000103958261980824233050000001850650150614232740_);fill:#00b4d8;" d="
 			M304.7,587.7l-4.3,0.8l2.5,4.7l3,1.3l-1.3,2.5v1.7l-8.1,2.1l0.9,2.5l3.4,1.3l3.8-3l3.4,0.8l-2.1,3.4l1.3,0.8l3.8-1.7l3-5.5
 			L304.7,587.7L304.7,587.7z"/>
 	</g>
@@ -1174,7 +1174,7 @@
 			<use xlink:href="#SVGID_00000183954602841012386620000009065185134316212144_"  style="overflow:visible;"/>
 		</clipPath>
 		
-			<path id="smyley" onmouseover="this.style.fill='#ff0000';" onmouseout="this.style.fill='#d4d4d4';" style="clip-path:url(#SVGID_00000100349830001207900180000002797565294485119935_);fill:#D4D4D4;" d="
+			<path id="smyley" onmouseover="this.style.fill='#00b4d8';" onmouseout="this.style.fill='#00b4d8';" style="clip-path:url(#SVGID_00000100349830001207900180000002797565294485119935_);fill:#00b4d8;" d="
 			M295.8,606.8l-3.4,3l3,0.8l3.8,0.8l3.8-2.5l-3.8-0.8L295.8,606.8L295.8,606.8z"/>
 	</g>
 	<g>
@@ -1186,7 +1186,7 @@
 			<use xlink:href="#SVGID_00000039835333859289959490000003274840637311445147_"  style="overflow:visible;"/>
 		</clipPath>
 		
-			<path id="robert" onmouseover="this.style.fill='#ff0000';" onmouseout="this.style.fill='#d4d4d4';" style="clip-path:url(#SVGID_00000041981669964051433620000013893616465582828175_);fill:#D4D4D4;" d="
+			<path id="robert" onmouseover="this.style.fill='#00b4d8';" onmouseout="this.style.fill='#00b4d8';" style="clip-path:url(#SVGID_00000041981669964051433620000013893616465582828175_);fill:#00b4d8;" d="
 			M319.6,556.5l-2.5,0.5l-0.5,2.5l4.8-0.7L319.6,556.5L319.6,556.5z"/>
 	</g>
 	<g>
@@ -1198,7 +1198,7 @@
 			<use xlink:href="#SVGID_00000108309126273938803870000002824275398584307335_"  style="overflow:visible;"/>
 		</clipPath>
 		
-			<path id="king_george" onmouseover="this.style.fill='#ff0000';" onmouseout="this.style.fill='#d4d4d4';" style="clip-path:url(#SVGID_00000040563992999886208190000013021240516106444675_);fill:#D4D4D4;" d="
+			<path id="king_george" onmouseover="this.style.fill='#00b4d8';" onmouseout="this.style.fill='#00b4d8';" style="clip-path:url(#SVGID_00000040563992999886208190000013021240516106444675_);fill:#00b4d8;" d="
 			M323.6,552.5l-3,0.6l0.6,2.3l3.6-0.1L323.6,552.5L323.6,552.5z"/>
 	</g>
 	<g>
@@ -1210,7 +1210,7 @@
 			<use xlink:href="#SVGID_00000168091201922862961610000017428541628060168090_"  style="overflow:visible;"/>
 		</clipPath>
 		
-			<path id="james_ross" onmouseover="this.style.fill='#ff0000';" onmouseout="this.style.fill='#d4d4d4';" style="clip-path:url(#SVGID_00000163047727533034414200000000087759900125600952_);fill:#D4D4D4;" d="
+			<path id="james_ross" onmouseover="this.style.fill='#00b4d8';" onmouseout="this.style.fill='#00b4d8';" style="clip-path:url(#SVGID_00000163047727533034414200000000087759900125600952_);fill:#00b4d8;" d="
 			M328.3,557.2v3.6l2,0.1l1.7-2.6L328.3,557.2L328.3,557.2z"/>
 	</g>
 	<g>
@@ -1222,7 +1222,7 @@
 			<use xlink:href="#SVGID_00000123443568522000655800000004689907145172696216_"  style="overflow:visible;"/>
 		</clipPath>
 		
-			<path id="elephant" onmouseover="this.style.fill='#ff0000';" onmouseout="this.style.fill='#d4d4d4';" style="clip-path:url(#SVGID_00000013169730110367946640000010873432525875649189_);fill:#D4D4D4;" d="
+			<path id="elephant" onmouseover="this.style.fill='#00b4d8';" onmouseout="this.style.fill='#00b4d8';" style="clip-path:url(#SVGID_00000013169730110367946640000010873432525875649189_);fill:#00b4d8;" d="
 			M329.3,547.2l-2.2,0.8l-0.5,2l1.9,0.7l3.1-2.2L329.3,547.2L329.3,547.2z"/>
 	</g>
 	<g>
@@ -3830,7 +3830,7 @@
 			<use xlink:href="#SVGID_00000041998662104705762600000010407401573268371646_"  style="overflow:visible;"/>
 		</clipPath>
 		
-			<path id="ireland" onmouseover="this.style.fill='#ff0000';" onmouseout="this.style.fill='#d4d4d4';" style="clip-path:url(#SVGID_00000160913504267630898270000017433371016763637136_);fill:#D4D4D4;" d="
+			<path id="ireland" onmouseover="this.style.fill='#00b4d8';" onmouseout="this.style.fill='#00b4d8';" style="clip-path:url(#SVGID_00000160913504267630898270000017433371016763637136_);fill:#00b4d8;" d="
 			M439.5,166.6l-0.9,6l-8.1,3H428l-1.8-1.3v-1.1l4-2.6l-1.1-2.2l0.2-3.1l3.5,0.2l1.6-3.8l-0.2,3.3l2.7,2.1L439.5,166.6L439.5,166.6z
 			"/>
 	</g>
@@ -3842,7 +3842,7 @@
 		<clipPath id="SVGID_00000180346097783872692680000016926485160509278634_">
 			<use xlink:href="#SVGID_00000051374561290063666590000010884415666028085398_"  style="overflow:visible;"/>
 		</clipPath>
-		<path id="sweden" style="clip-path:url(#SVGID_00000180346097783872692680000016926485160509278634_);fill:#D4D4D4;" d="
+		<path id="sweden" style="clip-path:url(#SVGID_00000180346097783872692680000016926485160509278634_);fill:#00b4d8;" d="
 			M497.7,104.6l2,1.8h3.7l2,3.9l0.5,6.7l-5,3.5v3.5l-3.5,4.8l-2,0.2l-2.8,4.6l0.2,4.4l4.8,3.5l-0.4,2l-1.8,2.8l-2.8,2.4l0.2,7.9
 			l-4.2,1.5l-1.5,3.1h-2l-1.1-5.5l-4.6-7l3.8-6.3l0.3-15.6l2.6-1.4l0.6-8.9l7.4-10.6L497.7,104.6L497.7,104.6z"/>
 	</g>
@@ -3936,7 +3936,7 @@
 			<use xlink:href="#SVGID_00000169521417459003413660000014682934600586653608_"  style="overflow:visible;"/>
 		</clipPath>
 		
-			<path id="spain" onmouseover="this.style.fill='#ff0000';" onmouseout="this.style.fill='#d4d4d4';" style="clip-path:url(#SVGID_00000031195614523963470920000001800148833897809576_);fill:#D4D4D4;" d="
+			<path id="spain" onmouseover="this.style.fill='#00b4d8';" onmouseout="this.style.fill='#00b4d8';" style="clip-path:url(#SVGID_00000031195614523963470920000001800148833897809576_);fill:#00b4d8;" d="
 			M448.4,205h-12.7l-2.6-1.2l-1.2,0.1l-1.5,3.1l0.5,3.2l4.9,0.4l0.6,2.1l-2.1,11.9l0.1,2.1l3.5,1.9l4,0.3l8-2l3.9-4.9l0.1-5l6.9-6.2
 			l0.4-2.8l-6.3-0.1L448.4,205L448.4,205z"/>
 	</g>
