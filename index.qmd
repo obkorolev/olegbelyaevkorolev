@@ -51,10 +51,3 @@ about:
   Welcome to my website! Having grown up among two different cultures and languages allowed me to obtain a global vision and develop critical thinking, acquiring great ability in problem approaching and solving. Graduated in Biology and with a MSc in Coastal Oceanography, I am currently enrolled in a PhD program in Antarctic biogeochemistry research and earth observation in the DICHOSO project framework, at the Institute of Marine Sciences of Andalusia (CSIC).
 </p>
 
-<br>
-
-<a href="files/OB_CV_2024.pdf" download="OlegBelyaev_CV.pdf" style="text-decoration: none;">
-  <button style="padding: 10px 20px; background-color: transparent; color: white; border: 2px solid white; border-radius: 10px; cursor: pointer; display: inline-flex; align-items: center; transition: background-color 0.3s, color 0.3s;">
-    <i class="fas fa-download" style="margin-right: 8px;"></i> Download CV
-  </button>
-</a>
