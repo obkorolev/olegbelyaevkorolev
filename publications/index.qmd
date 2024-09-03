@@ -2,7 +2,7 @@
 
 ----
 
-## <a href=none style="color:'white'; font-size: 0.8em;font-family: 'Jost', sans-serif; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">Assessing topographic features and population abundance in an antarctic penguin colony through UAV-based deep-learning models</a>
+## <a href=none style="color:'white'; font-size: 0.8em; font-family: 'Jost', sans-serif; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">Assessing topographic features and population abundance in an antarctic penguin colony through UAV-based deep-learning models</a>
 
 <div style="display: flex; align-items: center;">
   <div style="text-align: justify;">
@@ -24,7 +24,7 @@
 
 ----
 
-## <a href="paper_4.qmd" style="color:'white'; font-size: 0.8em; font-family: 'Jost', sans-serif;cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">Hydrothermal alteration of seawater biogeochemistry in Deception Island (South Shetland Islands, Antarctica)</a>
+## <a href="paper_4.qmd" style="color:'white'; font-size: 0.8em; font-family: 'Jost', sans-serif; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">Hydrothermal alteration of seawater biogeochemistry in Deception Island (South Shetland Islands, Antarctica)</a>
 
 <div style="display: flex; align-items: center;">
   <img src="fmars.jpg" style="height: 250px; width: auto; object-fit: contain; margin-right: 75px;border-radius: 5px;"/>
@@ -60,7 +60,7 @@
 
 ----
 
-## <a href="paper_3.qmd"  style="color:'white'; font-size: 0.8em;font-family: 'Jost', sans-serif; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">Marine heatwaves in a shifting Southern Ocean induce dynamical changes in primary production</a>
+## <a href="paper_3.qmd"  style="color:'white'; font-size: 0.8em; font-family: 'Jost', sans-serif; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">Marine heatwaves in a shifting Southern Ocean induce dynamical changes in primary production</a>
 
 <div style="display: flex; align-items: center;">
   <img src="natcommsearth.jpg" style="height: 250px; width: auto; object-fit: contain; margin-right: 75px; border-radius: 5px;"/>
@@ -96,7 +96,7 @@
 
 ----
 
-## <a href="paper_2.qmd"  style="color:'white'; font-size: 0.8em;font-family: 'Jost', sans-serif; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">An observational and warning system for the aquaculture sector</a>
+## <a href="paper_2.qmd"  style="color:'white'; font-size: 0.8em; font-family: 'Jost', sans-serif; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">An observational and warning system for the aquaculture sector</a>
 
 <div style="display: flex; align-items: center;">
   <img src="fmars_diego.jpg" style="height: 250px; width: auto; object-fit: contain; margin-right: 75px;border-radius: 5px;"/>
@@ -130,7 +130,7 @@
 
 ----
 
-## <a href="paper_1.qmd" style="color:'white'; font-size: 0.8em;font-family: 'Jost', sans-serif;cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">The contribution of penguin guano to the Southern Ocean iron pool</a>
+## <a href="paper_1.qmd" style="color:'white'; font-size: 0.8em; font-family: 'Jost', sans-serif;cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">The contribution of penguin guano to the Southern Ocean iron pool</a>
 
 <div style="display: flex; align-items: center;">
   <img src="natcom.jpg" style="height: 250px; width: auto; object-fit: contain; margin-right: 75px;border-radius: 5px;"/>
