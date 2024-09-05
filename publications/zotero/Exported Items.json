@@ -1,0 +1,76 @@
+[
+	{
+		"id": "http://zotero.org/users/local/Ok6RmOkr/items/WXGU4S8X",
+		"type": "article-journal",
+		"abstract": "Deception Island (DI) is an active volcanic caldera in the South Shetland Islands, Antarctica, with an inner bay, Port Foster, formed by an ancient eruption. The bay’s seafloor hydrofracture system contains hydrothermal seeps and submarine vents, which are a source of trace metals (TMs) like Fe, Ni, Co, V, and greenhouse gases (GHGs) such as CO\n              2\n              and CH\n              4\n              . This study presents measurements of TMs and GHGs in Port Foster’s surface waters during January-February 2021 to characterize their spatial distribution. TMs concentrations in the northeastern region of the bay, particularly V (74 nM), Fe (361 nM), Co (3.9 nM) and Ni (17.2 nM), were generally higher than in the Southern Ocean, likely due to hydrothermal activity. As some TMs such as Fe are scarce in the SO and limit primary productivity, inputs of these nutrients from DI into surrounding waters may also regionally promote increased primary productivity. Higher surface temperature (ST), elevated partial pressure of CO\n              2\n              (pCO\n              2\n              ), and lower salinity were found near submarine fumaroles, with ST positively correlated with pCO\n              2\n              and negatively with salinity. Although hydrothermal sites showed localized CO\n              2\n              outgassing, the bay overall acted as a CO\n              2\n              sink, with a median flux of -2.78 mol m\n              -2\n              yr\n              -1\n              with an interquartile range (IQR) of 3.84 mol m\n              -2\n              yr\n              -1\n              . CH\n              4\n              highest concentration levels were found in the southeastern sector. The median concentration was 8.9 nM with an IQR of 1.9 nM, making Port Foster a regional net CH\n              4\n              source with a median flux of 9.7 μmol m\n              -2\n              d\n              -1\n              and an IQR of 3.4 μmol m\n              -2\n              d\n              -1\n              . Ultimately, the analysis of spatial patterns of the measured variables suggested that fumaroles of DI may be playing a significant role in the alteration of regional seawater biogeochemistry.",
+		"container-title": "Frontiers in Marine Science",
+		"DOI": "10.3389/fmars.2024.1432122",
+		"ISSN": "2296-7745",
+		"journalAbbreviation": "Front. Mar. Sci.",
+		"page": "1432122",
+		"source": "DOI.org (Crossref)",
+		"title": "Hydrothermal alteration of seawater biogeochemistry in Deception Island (South Shetland Islands, Antarctica)",
+		"URL": "https://www.frontiersin.org/articles/10.3389/fmars.2024.1432122/full",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Belyaev",
+				"given": "Oleg"
+			},
+			{
+				"family": "Huertas",
+				"given": "I. Emma"
+			},
+			{
+				"family": "Navarro",
+				"given": "Gabriel"
+			},
+			{
+				"family": "Amaya-Vías",
+				"given": "Silvia"
+			},
+			{
+				"family": "De La Paz",
+				"given": "Mercedes"
+			},
+			{
+				"family": "Sparaventi",
+				"given": "Erica"
+			},
+			{
+				"family": "Heredia",
+				"given": "Sergio"
+			},
+			{
+				"family": "Sukekava",
+				"given": "Camila F."
+			},
+			{
+				"family": "Laglera",
+				"given": "Luis M."
+			},
+			{
+				"family": "Tovar-Sánchez",
+				"given": "Antonio"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					8,
+					16
+				]
+			]
+		}
+	}
+]

@@ -48,6 +48,6 @@ about:
 ----
 
 <p style="text-align: justify; color: #f7fff7; font-size: 1em;">
-  Welcome to my website! Having grown up among two different cultures and languages allowed me to obtain a global vision and develop critical thinking, acquiring great ability in problem approaching and solving. Graduated in Biology and with a MSc in Coastal Oceanography, I am currently enrolled in a PhD program in Antarctic biogeochemistry research and earth observation in the DICHOSO project framework, at the Institute of Marine Sciences of Andalusia (CSIC).
+  Welcome to my website! Having grown up among two different cultures and languages allowed me to obtain a global vision and develop critical thinking, acquiring great ability in problem approaching and solving. Graduated in <strong style="color: #00b4d8;">Biology</strong> and with a <strong style="color: #00b4d8;">MSc in Coastal Oceanography</strong>, I am currently enrolled in a <strong style="color: #00b4d8;">PhD program in Antarctic biogeochemistry research and earth observation</strong> in the DICHOSO project framework, at the Institute of Marine Sciences of Andalusia (CSIC).
 </p>
 
