@@ -202,15 +202,6 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -1; /* Puts the video behind everything else */
 }
 
-/* Add some content on top of the video/page */
-.content {
-  position: relative; /* Ensure content stays above the video */
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-  z-index: -1; /* Ensure content stays above the video */
-}
-
 .social-icons {
     margin-top: 15px; /* Adjust spacing as needed */
     text-align: center; /* Center the icons */
