@@ -16,7 +16,7 @@
   .article-title {
     color: #f7fff7; /* Color del texto del título */
     font-size: 1.5em; /* Ajusta el tamaño del texto según sea necesario */
-    font-family: sans-serif; /* Fuente sans-serif */
+    font-family: Jost; /* Fuente sans-serif */
     margin-top: 20px; /* Espacio entre la imagen y el título */
     text-align: center; /* Centra el texto */
   }
