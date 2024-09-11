@@ -2,16 +2,17 @@
 
 ----
 
-## <a href=none style="color:'white'; font-size: 0.8em; font-family: 'Jost', sans-serif; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">Assessing topographic features and population abundance in an antarctic penguin colony through UAV-based deep-learning models</a>
+## <a href="paper_5.qmd" style="color:'white'; font-size: 0.8em; font-family: 'Jost', sans-serif; cursor: pointer; transition: color 0.3s, text-decoration: 0.3s;" onmouseover="this.style.color='white'; this.style.textDecoration='underline';" onmouseout="this.style.color='white'; this.style.textDecoration='none';">Assessing topographic features and population abundance in an antarctic penguin colony through UAV-based deep-learning models</a>
 
 <div style="display: flex; align-items: center;">
+  <img src="JAG.jpg" style="height: 250px; width: auto; object-fit: contain; margin-right: 75px;border-radius: 5px;"/>
   <div style="text-align: justify;">
   <p> 
   <img src="elsevier2.png" alt="Elsevier Logo" style="height: 50px;">
 </p>
 
-<span style="font-size: 0.9em; color: #81c14b">
-   Accepted for publication
+<span style="font-size: 0.9em;">
+   September 11, 2024
     </span>
     
   <span style="font-size: 0.9em; color: #78cdd7">
@@ -19,6 +20,17 @@
     </span>
     <br>
     <br>
+    <a href="https://doi.org/10.1016/j.jag.2024.104124" target="_blank" style="text-decoration: none;">
+      <img src="DOI_logo.png" alt="PDF Icon" style="height: 30px; width: auto; vertical-align: middle; margin-right: 4px;">
+    </span>
+      </a>
+      <a href="https://www.sciencedirect.com/science/article/pii/S1569843224004783/pdf" target="_blank" style="text-decoration: none;">
+      <img src="pdf-svgrepo-com.svg" alt="PDF Icon" style="height: 30px; width: auto; vertical-align: middle; margin-right: 4px;">
+      <a href="none" download="paper4.bib" style="text-decoration: none;">
+  <img src="bib_logo.svg" alt="BibTeX Icon" style="height: 20px; width: auto; vertical-align: middle; margin-right: 4px;">
+  </a>
+  
+  <div data-badge-type="1" data-doi="https://doi.org/10.1016/j.jag.2024.104124" data-hide-no-mentions="true" class="altmetric-embed"></div>
   </div>
 </div>
 

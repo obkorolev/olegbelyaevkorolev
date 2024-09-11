@@ -1,0 +1,52 @@
+<style>
+  /* Contenedor de la imagen */
+  .hero-container {
+    width: 100%;
+    text-align: center; /* Centra el contenido dentro del contenedor */
+  }
+  
+  /* Imagen de fondo sin tintado */
+  .hero-image {
+    width: 100%;
+    height: auto; /* Mantiene la proporción original de la imagen */
+    object-fit: cover;
+  }
+  
+  /* Estilo del título del artículo */
+  .article-title {
+    color: #f7fff7; /* Color del texto del título */
+    font-size: 1.5em; /* Ajusta el tamaño del texto según sea necesario */
+    font-family: Jost; /* Fuente sans-serif */
+    margin-top: 20px; /* Espacio entre la imagen y el título */
+    text-align: center; /* Centra el texto */
+  }
+</style>
+
+<!-- Título del artículo como enlace al DOI -->
+<div class="article-title">
+  <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1432122" style="color: #f7fff7; font-family: 'Jost', sans-serif;text-decoration: none;">
+    Assessing topographic features and population abundance in an antarctic penguin colony through UAV-based deep-learning models
+  </a>
+</div>
+
+<p style="text-align: center;">
+  <img src="elsevier2.png" alt="Elsevier Logo" style="height: 40px;">
+</p>
+
+
+<div style="text-align: center;">
+  <span style="font-size: 0.9em; color: #78cdd7">
+  <strong>Oleg Belyaev</strong>, Alejandro Román, Josabel Belliure, Gabriel Navarro, Luis Barbero & Antonio Tovar-Sánchez.
+
+----
+   
+<iframe src="pdfs/5_Assessing topographic features and population abundance in an Antarctic penguin colony through UAV-based deep-learning models.pdf" width="100%" height="800"></iframe>
+   
+
+```{=html}
+<p style="text-align: center; margin: 30px;">
+    <a href="/publications/index.qmd" style="color: #125F63; text-decoration: underline; font-size: 1em; font-weight: bold;">
+        Back to publications
+    </a>
+</p>
+```
