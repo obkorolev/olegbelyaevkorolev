@@ -123,7 +123,14 @@
     "href": "education/index.html#bsc-in-biology",
     "title": "\nEducation\n",
     "section": " BSc in Biology",
-    "text": "BSc in Biology\n\n\nAlcala University, Spain\n\n\nSeptember 2015 – September 2018\n\n\nUnderstanding of the basic structures and dynamics of living organisms and its interactions with their environment."
+    "text": "BSc in Biology\n\n\nAlcala University, Spain\n\n\nSeptember 2015 – September 2018\n\n\nUnderstanding of the basic structures and dynamics of living organisms and its interactions with their environment.\n\n\nCourses"
+  },
+  {
+    "objectID": "education/index.html#phd-course-in-spatial-data-analysis-in-ecology-with-r",
+    "href": "education/index.html#phd-course-in-spatial-data-analysis-in-ecology-with-r",
+    "title": "\nEducation\n",
+    "section": "  PhD Course in spatial data analysis in ecology with R",
+    "text": "PhD Course in spatial data analysis in ecology with R\n\n\nCádiz University, Spain\n\n\nOctober 2024\n\n\n\nBuilt foundational skills in spatial analysis using GIS data concepts and R setup for data visualization, cleaning, and GPS data import.\n\n\nApplied space-use analysis (MCP, KDE) and trajectory segmentation (EMBC, HMM) to study movement patterns and behaviors in R.\n\n\nConducted habitat modeling by integrating GPS and environmental data, building and validating habitat suitability models in R.\n\n\n20 hours"
   },
   {
     "objectID": "index.html",
