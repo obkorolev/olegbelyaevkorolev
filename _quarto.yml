@@ -25,6 +25,8 @@ website:
         href: experience/index.qmd
       - text: "Research"
         href: publications/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
   
   
 
