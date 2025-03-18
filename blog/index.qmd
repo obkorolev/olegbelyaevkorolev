@@ -3,11 +3,15 @@
 
 ----
 
-## <a href="blog1.qmd" style="color: #00b4d8;font-size: 0.8em;cursor: pointer; transition: color 0.3s, text-decoration 0.3s;" onmouseover="this.style.color=#00b4d8; this.style.textDecoration='underline';" onmouseout="this.style.color='#00b4d8'; this.style.textDecoration='none';">The Fear of AI: Origins and the Path to Utopia</a>
+## <a href="blog1.qmd" style="color: #00b4d8; font-size: 0.8em; cursor: pointer; transition: color 0.3s; text-decoration: none;" onmouseover="this.style.color='#00b4d8'; this.style.textDecoration='none';" onmouseout="this.style.color='#00b4d8'; this.style.textDecoration='none';">The Fear of AI: Origins and the Path to Utopia</a>
 
 <div style="display: flex; align-items: center;">
   <img src="img/blog1blog.png" style="height: auto; width: 100%;border-radius: 5px;"/>
 </div>
+
+<p style="color: #125F63;text-align: justify; font-size: 0.8em;">
+  Read time: 10-12 min.
+</p>
 
 <p style="text-align: justify; font-size: 0.9em;">
   Talking recently to my dear cousin, we discussed the endless possibilities that are arising from the exponential development of artificial intelligence, and how the future is being shaped by these intellects. Is dark illustration the future of human society? Or by contrary the conception of a new era: without boundaries, without death, with unlimited and unmatched knowledge that will guide the mankind to see attack ships on fire off the shoulder of Orion and C-beams glitter in the dark near the Tannhäuser Gate?
