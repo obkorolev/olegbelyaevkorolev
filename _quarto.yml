@@ -40,7 +40,7 @@ website:
    # center: |
     #  <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
     right: |
-      <span class="faux-block" style="color: #f7fff7;">&#169; 2024 Oleg Belyaev - Made with <a href="https://quarto.org/" target="_blank" style="color: #F39075; text-decoration: underline;">Quarto</a></span>
+      <span class="faux-block" style="color: #f7fff7;">&#169; 2025 Oleg Belyaev - Made with <a href="https://quarto.org/" target="_blank" style="color: #F39075; text-decoration: underline;">Quarto</a></span>
 
 project:
   type: website
