@@ -15,7 +15,7 @@ editor:
 
 </video>
 
-<img src="img/perfil_ecos.jpg" alt="Oleg Belyaev" id="profile-img"/>
+<img src="img/perfil_ecos_web.jpg" alt="Oleg Belyaev" id="profile-img"/>
 
 <h1 style="text-align: center;color: #00b4d8; font-size: 2em; font-weight: bold; margin-bottom: 10px;">
 
