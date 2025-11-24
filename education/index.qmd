@@ -100,6 +100,25 @@
       <li>20 hours</li>
   </ul>
 
+</div> <hr style="border-top: 1px solid #f7fff7; opacity: 0.2; margin: 20px 0;">
+
+
+
+## <span style="color: #f7fff7; font-size: 0.8em; font-family: 'Jost', sans-serif;"> <i class="fas fa-graduation-cap" style="color:#00b4d8;"></i> Expert in Data Science</span>
+
+<div style="margin-left: 30px;">
+  <p style="font-weight: normal;color:#f7fff7">Datamecum</p>
+  <p style="font-size: 0.9em;">August 2025 - ongoing</p>
+  
+  <ul style="font-size: 0.9em;color:#f7fff7">
+      <li>Comprehensive training in the data science lifecycle, utilizing Python for data manipulation, cleaning, and analysis (Pandas, NumPy).</li>
+      <li>Applied machine learning algorithms and statistical modeling techniques to extract actionable insights from complex datasets.</li>
+      <li>Developed proficiency in data visualization and storytelling to communicate findings effectively.</li>
+      <li>200 hours</li>
+  </ul>
+
+</div> <hr style="border-top: 1px solid #f7fff7; opacity: 0.2; margin: 20px 0;">
+
 
 
 
