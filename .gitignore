@@ -5,3 +5,7 @@
 
 /.quarto/
 .DS_Store
+
+# Claude Code local tooling (worktrees, launch config) - must not be committed:
+# a committed worktree becomes a phantom submodule and breaks CI/Netlify checkout.
+.claude/
