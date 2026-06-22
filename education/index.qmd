@@ -108,7 +108,7 @@
 
 <div style="margin-left: 30px;">
   <p style="font-weight: normal;color:#f7fff7">Datamecum</p>
-  <p style="font-size: 0.9em;">August 2025 - ongoing</p>
+  <p style="font-size: 0.9em;">August 2025 - April 2026</p>
   
   <ul style="font-size: 0.9em;color:#f7fff7">
       <li>Comprehensive training in the data science lifecycle, utilizing Python for data manipulation, cleaning, and analysis (Pandas, NumPy).</li>

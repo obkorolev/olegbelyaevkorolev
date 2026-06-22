@@ -24,7 +24,7 @@
 
 <!-- Título del artículo como enlace al DOI -->
 <div class="article-title">
-  <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1432122" style="color: #f7fff7; font-family: 'Jost', sans-serif;text-decoration: none;">
+  <a href="https://doi.org/10.1016/j.jag.2024.104124" style="color: #f7fff7; font-family: 'Jost', sans-serif;text-decoration: none;">
     Assessing topographic features and population abundance in an antarctic penguin colony through UAV-based deep-learning models
   </a>
 </div>
