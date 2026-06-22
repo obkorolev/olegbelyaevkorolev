@@ -22,16 +22,14 @@ website:
         href: about/index.qmd
       - text: "Research"
         href: publications/index.qmd
-      - text: "Fieldwork"
-        href: fieldwork/index.qmd
       - text: "Education & Experience"
         href: education-experience/index.qmd
+      - text: "Fieldwork Gallery"
+        href: fieldwork/index.qmd
       - text: "Blog"
         href: blog/index.qmd
-      - text: "Contact"
-        href: contact/index.qmd
-  
-  
+
+
 
 # Don't touch unless you know what you are doing :) ------------
   search: false

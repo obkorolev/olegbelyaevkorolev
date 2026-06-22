@@ -9,3 +9,7 @@
 # Claude Code local tooling (worktrees, launch config) - must not be committed:
 # a committed worktree becomes a phantom submodule and breaks CI/Netlify checkout.
 .claude/
+
+# Heavy source photos for the fieldwork gallery; only the optimized
+# fieldwork/gallery/ versions are committed/published.
+fdwk_gallery/
