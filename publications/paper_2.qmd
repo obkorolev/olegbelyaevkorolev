@@ -14,7 +14,7 @@
   
   /* Estilo del título del artículo */
   .article-title {
-    color: #f7fff7; /* Color del texto del título */
+    color: #D1E8E2; /* Color del texto del título */
     font-size: 1.5em; /* Ajusta el tamaño del texto según sea necesario */
     font-family: Jost; /* Fuente sans-serif */
     margin-top: 20px; /* Espacio entre la imagen y el título */
@@ -24,7 +24,7 @@
 
 <!-- Título del artículo como enlace al DOI -->
 <div class="article-title">
-  <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2023.1288610/full" style="color: #f7fff7; font-family: 'Jost', sans-serif;text-decoration: none;">
+  <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2023.1288610/full" style="color: #D1E8E2; font-family: 'Jost', sans-serif;text-decoration: none;">
     An observational and warning system for the aquaculture sector
   </a>
 </div>
@@ -35,7 +35,7 @@
 
 
 <div style="text-align: center;">
-  <span style="font-size: 0.9em; color: #78cdd7;">
+  <span style="font-size: 0.9em; color: #D9B08C;">
   Pereiro D., <strong>Oleg Belyaev</strong>, Dunbar M. B., Conway A., Dabrowski T., Graves I., Navarro G., Nolan G., Pearlman J., Simpson P. & Cusack C.
 
 ----
@@ -46,7 +46,7 @@
 
 ```{=html}
 <p style="text-align: center; margin: 30px;">
-    <a href="/publications/index.qmd" style="color: #125F63; text-decoration: underline; font-size: 1em; font-weight: bold;">
+    <a href="/publications/index.qmd" style="color: #D9B08C; text-decoration: underline; font-size: 1em; font-weight: bold;">
         Back to publications
     </a>
 </p>

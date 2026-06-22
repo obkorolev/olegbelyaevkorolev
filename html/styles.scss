@@ -26,31 +26,41 @@ $green:   #118230 !default;
 $teal:    #068194 !default;
 $cyan:    #3093CF !default;
 
-$primary_dark:    #001219 !default;
-$primary_light:    #FFF7EC !default;
-$new_orange:    #F39075 !default;
-$barrita:    #125F63 !default;
-$sanddollar:    #dcd2cc !default;
-$ivory:    #ede7dc !default;
-$carafe:    #523a28 !default;
-$marron:    #ec810f !default;
-$marron_2:    #8f250c !default;
-$for_links: #fec601;
-$for_text: #f7fff7;
-$link_hover: #e4572e;
+// ===== Solarin palette (from reference image) ===== //
+$sln-dark:   #2C3531 !default; // dark slate green - page background
+$sln-teal:   #116466 !default; // teal - brand / structural accent
+$sln-sand:   #D9B08C !default; // tan/sand - headings, secondary accent
+$sln-peach:  #FFCB9A !default; // peach - bright highlight, links, name
+$sln-mint:   #D1E8E2 !default; // pale mint - body text on dark
+$sln-darker: #1F2623 !default; // darker shade of base for surfaces
 
-$primary:   $barrita!default;
-$secondary: $carafe !default;
+// Legacy variable names remapped onto the new palette so existing
+// rules keep working without a site-wide rename.
+$primary_dark:  $sln-dark !default;
+$primary_light: $sln-mint !default;
+$new_orange:    $sln-peach !default;
+$barrita:       $sln-teal !default;
+$sanddollar:    $sln-sand !default;
+$ivory:         $sln-mint !default;
+$carafe:        $sln-darker !default;
+$marron:        $sln-sand !default;
+$marron_2:      $sln-peach !default;
+$for_links:     $sln-peach;
+$for_text:      $sln-mint;
+$link_hover:    $sln-sand;
+
+$primary:   $sln-teal !default;
+$secondary: $sln-sand !default;
 $success:   $green !default;
-$info:      $cyan !default;
-$warning:   $orange !default;
+$info:      $sln-teal !default;
+$warning:   $sln-peach !default;
 $danger:    $red !default;
-$light:     $carafe !default;
-$dark:      $black !default;
+$light:     $sln-mint !default;
+$dark:      $sln-dark !default;
 
 #profile-img {
     width: 300px; /* Adjust the size as needed */
-    border: 3px solid #f7fff7; /* Add a border */
+    border: 3px solid $sln-mint; /* Add a border */
     border-radius: 50%; /* Make it circular */
     padding: 5px; /* Add some padding */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Optional shadow */
@@ -60,7 +70,7 @@ $dark:      $black !default;
 
 #about1-img {
             width: 400px; /* Adjust the size as needed */
-            border: 3px solid #f7fff7; /* Add a border */
+            border: 3px solid $sln-mint; /* Add a border */
             border-radius: 10%; /* Rounded corners */
             padding: 5px; /* Add some padding */
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Optional shadow */
@@ -71,7 +81,7 @@ $dark:      $black !default;
 
 #about2-img {
             width: 300px; /* Adjust the size as needed */
-            border: 3px solid #f7fff7; /* Add a border */
+            border: 3px solid $sln-mint; /* Add a border */
             border-radius: 10%; /* Rounded corners */
             padding: 5px; /* Add some padding */
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Optional shadow */
@@ -128,18 +138,18 @@ $dark:      $black !default;
 }
 
 // Links
-$link-color: $white;
-$link-decoration: $white;
-$link-hover-color: $link_hover;
-$link-hover-decoration: $link_hover;
+$link-color: $sln-peach;
+$link-decoration: none;
+$link-hover-color: $sln-sand;
+$link-hover-decoration: $sln-sand;
 
 // Footer - Debajo el background (bg) y el texto (fg)
-$footer-bg: $barrita !default;
-$footer-fg: $primary_light !default;
+$footer-bg: $sln-darker !default;
+$footer-fg: $sln-mint !default;
 
 // Inline code
-$code-bg: $ivory !default;
-$code-color: $ivory !default;
+$code-bg: $sln-darker !default;
+$code-color: $sln-peach !default;
 
 // TOC
 $toc-color: $primary_light;
@@ -150,14 +160,62 @@ $btn-code-copy-color-active: $primary_light !default;
 
 /*-- scss:rules --*/
 
-// Cambiar el color del título del sitio web
-.navbar-brand {
-  color: $for_text !important; // Reemplaza con el color deseado
+// ===== Navbar: centered menu (Solarin layout) ===== //
+
+// Dark, slightly translucent bar that sits over the hero / content
+.navbar {
+  background-color: rgba(31, 38, 35, 0.88) !important;
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(209, 232, 226, 0.12);
 }
 
-// También puedes necesitar ajustar el color del texto del título en el encabezado
+// Centering only applies once the navbar expands (>= 992px, navbar-expand-lg).
+// Below that the menu collapses to a hamburger, so we leave the default flow
+// (logo left, toggler right) untouched.
+@media (min-width: 992px) {
+  // Center the menu within the bar while keeping the logo pinned left
+  // and the search pinned right.
+  .navbar > .navbar-container,
+  .navbar > .container,
+  .navbar > .container-fluid {
+    position: relative;
+    justify-content: center;
+  }
+
+  .navbar-brand-container {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+  }
+
+  #navbarCollapse {
+    flex-grow: 0;
+  }
+
+  // Both nav groups collapse to auto margins; center them as one block
+  .navbar-nav {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  // Pin the search box to the right edge of the bar
+  .navbar #quarto-search,
+  .navbar .aa-Autocomplete {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.navbar-brand {
+  color: $for_text !important;
+}
+
 .site-title {
-  color: $for_text; // Reemplaza con el color deseado
+  color: $for_text;
 }
 
 
@@ -168,24 +226,24 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..
 }
 
 #region1:hover {
-    fill: #f7fff7;
+    fill: $sln-mint;
     cursor: pointer;
 }
 
 #region2:hover {
-    fill: #f7fff7;
+    fill: $sln-mint;
     cursor: pointer;
 }
 
 
 body {
-    background-image: url('img/back.png');
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-position: center; /* Centers the image */
-    background-attachment: fixed; /* This makes the image static */
-    background-color: #001219; /* Color de fondo de toda la página */
-    color: #f7fff7; /* Color de texto predeterminado */
+    background-color: $sln-dark; /* dark slate-green base */
+    /* subtle teal glow over the dark base, echoing the reference image */
+    background-image:
+        radial-gradient(ellipse at 50% -10%, rgba(17, 100, 102, 0.55) 0%, rgba(44, 53, 49, 0) 60%);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* keep the glow static while scrolling */
+    color: $sln-mint; /* default text colour */
     font-family: 'Jost', sans-serif;
 }
 
@@ -210,12 +268,12 @@ h1, h2, h3, h4, h5, h6 {
 .social-icons a {
     margin: 0 10px; /* Add spacing between the icons */
     text-decoration: none; /* Remove underline */
-    color: #f7fff7; /* Default color for the icons */
+    color: $sln-mint; /* Default color for the icons */
     transition: color 0.1s ease; /* Smooth transition for color change */
 }
 
 .social-icons a:hover {
-    color: #00b4d8; /* Color change on hover */
+    color: $sln-peach; /* Color change on hover */
 }
 
 .social-icons i {
@@ -223,11 +281,23 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px; /* Change this value to adjust the size of the icons */
 }
 .navbar-nav .nav-link {
-    color: $for_text; /* Color de los enlaces de navegación */
+    color: $sln-mint; /* nav link colour */
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 0.82em;
+    font-weight: 500;
+    transition: color 0.15s ease;
 }
 
 .navbar-nav .nav-link:hover {
-    text-decoration: underline; /* Subrayado en lugar de cambio de color */
+    color: $sln-peach;
+    text-decoration: none;
+}
+
+// Current page highlighted in peach
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+    color: $sln-peach !important;
 }
 
 .nav-footer {
@@ -238,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
     //font-family: $footer-font-family;
 
     a {
-        color: #f7fff7;
+        color: $sln-mint;
     }
 
     .faux-block {
@@ -285,6 +355,649 @@ h1, h2, h3, h4, h5, h6 {
             flex: 1 1 33%;
         }
     }
+}
+
+
+// ===== Home hero: photo left, text right, fills viewport (no scroll) ===== //
+
+// The home page never scrolls, at any screen size. The real scroll container
+// is <html>, and Quarto pads the body to clear the fixed navbar; we lock both
+// to the viewport and let the hero clear the navbar via its own top padding.
+html:has(.home-hero),
+body:has(.home-hero) {
+    overflow: hidden;
+    height: 100%;
+}
+// Lay the home page out as a column: content fills, footer sits at the bottom,
+// all within one viewport (still no scrolling).
+body:has(.home-hero) {
+    padding-top: 0 !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+}
+// Hide only the (empty) title block; the footer now stays visible.
+body:has(.home-hero) #title-block-header {
+    display: none;
+}
+// Content area flexes to fill the space above the footer.
+body:has(.home-hero) #quarto-content {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    row-gap: 0 !important;
+}
+body:has(.home-hero) #quarto-document-content,
+body:has(.home-hero) .page-columns,
+body:has(.home-hero) main.content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    min-height: 0 !important;
+}
+// Footer keeps its natural height pinned at the bottom of the viewport,
+// compacted so the hero keeps enough room (esp. on small phones).
+body:has(.home-hero) footer.footer {
+    flex: 0 0 auto;
+    font-size: 0.78rem;
+}
+body:has(.home-hero) .nav-footer {
+    min-height: 0;
+}
+body:has(.home-hero) .nav-footer .nav-footer-left,
+body:has(.home-hero) .nav-footer .nav-footer-center,
+body:has(.home-hero) .nav-footer .nav-footer-right {
+    min-height: 0;
+}
+body:has(.home-hero) .nav-footer .faux-block {
+    padding-bottom: 0.1em;
+}
+
+.home-hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: clamp(1.25rem, 4vw, 3.5rem);
+    // full-bleed: break out of the centered content column to the viewport edges
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    flex: 1 1 auto;      // fill the space above the footer
+    min-height: 0;
+    box-sizing: border-box;
+    // top padding clears the fixed navbar; sides/bottom keep breathing room
+    padding: clamp(72px, 11vh, 112px) clamp(1.25rem, 6vw, 5rem) clamp(1.25rem, 5vh, 3rem);
+    overflow: hidden;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.55);
+}
+
+.home-photo {
+    flex: 0 0 auto;
+}
+.home-photo img {
+    width: clamp(130px, 24vmin, 330px);
+    height: clamp(130px, 24vmin, 330px);
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid $sln-mint;
+    padding: 5px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+}
+
+.home-text {
+    flex: 1 1 320px;
+    max-width: 560px;
+    text-align: left;
+}
+.home-text .name {
+    color: $sln-peach;
+    font-weight: 700;
+    line-height: 1.05;
+    margin: 0 0 0.15em;
+    font-family: 'Jost', sans-serif;
+    font-size: clamp(1.9rem, 5.2vmin, 3.4rem);
+}
+.home-text .subtitle {
+    color: $sln-sand;
+    font-weight: 600;
+    margin: 0;
+    font-size: clamp(0.95rem, 2.4vmin, 1.35rem);
+}
+.home-text .affil {
+    color: $sln-mint;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin: 0.2em 0 0.5em;
+    font-size: clamp(0.7rem, 1.6vmin, 0.85rem);
+}
+.home-text .social-icons {
+    text-align: left;
+    margin: 0.3rem 0 0;
+}
+.home-text .social-icons i {
+    font-size: clamp(18px, 2.6vmin, 24px);
+}
+.home-text .welcome {
+    color: $sln-mint;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0.55rem 0 0;
+    font-size: clamp(0.82rem, 1.85vmin, 1.02rem);
+}
+.home-text .welcome strong {
+    color: $sln-peach;
+    font-weight: 600;
+}
+
+// ----- Home CV buttons + preview panel ----- //
+.home-cta {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+.cv-btn {
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $sln-dark;
+    background: $sln-peach;
+    border: 1px solid $sln-peach;
+    padding: 0.5rem 1.1rem;
+    border-radius: 6px;
+    text-decoration: none !important;
+    text-shadow: none;
+    transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease, border-color 0.15s ease;
+}
+.cv-btn:hover {
+    transform: translateY(-2px);
+    background: $sln-sand;
+    border-color: $sln-sand;
+    color: $sln-dark;
+}
+.cv-btn-outline {
+    background: transparent;
+    color: $sln-peach;
+}
+.cv-btn-outline:hover {
+    background: rgba(255, 203, 154, 0.15);
+    border-color: $sln-peach;
+    color: $sln-peach;
+}
+
+// Preview panel: hidden until the user opens it, then unfolds below the hero.
+.cv-preview {
+    display: none;
+    width: 100%;
+}
+body.cv-open .cv-preview {
+    display: block;
+}
+.cv-preview-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.cv-frame {
+    width: 100%;
+    height: 85vh;
+    border: 1px solid rgba(209, 232, 226, 0.2);
+    border-radius: 8px;
+    background: #fff;
+}
+
+// When the preview is open, release the home no-scroll lock so the CV unfolds.
+html:has(body.cv-open),
+body.cv-open {
+    overflow: visible !important;
+    height: auto !important;
+}
+body.cv-open {
+    min-height: 100svh;
+}
+body.cv-open #quarto-content,
+body.cv-open #quarto-document-content,
+body.cv-open main.content {
+    flex: 0 0 auto;
+    overflow: visible !important;
+}
+body.cv-open .home-hero {
+    flex: 0 0 auto;
+    min-height: 100svh;
+}
+
+// On phones the two columns can't sit side by side without crushing the
+// text, so stack them (photo on top) and center, still within one viewport.
+@media (max-width: 640px) {
+    .home-text {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .home-text .social-icons,
+    .home-text .welcome {
+        text-align: center;
+    }
+}
+
+// Compact / short viewports: shrink everything so the stacked hero still fits
+// in one screen without scrolling or clipping the welcome text.
+@media (max-width: 420px), (max-height: 700px) {
+    .home-hero {
+        gap: clamp(0.6rem, 2.5vh, 1.25rem);
+        padding: clamp(64px, 10vh, 88px) 1.1rem clamp(0.6rem, 2.5vh, 1.25rem);
+    }
+    .home-photo img {
+        width: clamp(92px, 17vmin, 170px);
+        height: clamp(92px, 17vmin, 170px);
+    }
+    .home-text .name {
+        font-size: clamp(1.45rem, 6.5vmin, 2.4rem);
+    }
+    .home-text .subtitle {
+        font-size: clamp(0.85rem, 3.4vmin, 1.1rem);
+    }
+    .home-text .affil {
+        margin: 0.1em 0 0.3em;
+    }
+    .home-text .social-icons {
+        margin-top: 0.15rem;
+    }
+    .home-text .social-icons i {
+        font-size: clamp(16px, 4.4vmin, 20px);
+    }
+    .home-text .welcome {
+        margin-top: 0.4rem;
+        line-height: 1.38;
+        font-size: clamp(0.72rem, 3.1vmin, 0.92rem);
+        text-align: justify;
+    }
+}
+
+
+// ===== Research: card grid ("small rectangles") + timeline rail ===== //
+.research-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.75rem;
+    margin: 1.75rem 0 2.5rem;
+}
+.research-grid {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+// Vertical timeline rail down the left of the research section; nodes spread
+// evenly across the full height of the card grid so it reads as a time axis.
+.research-timeline {
+    flex: 0 0 auto;
+    position: relative;
+    padding: 0.4rem 0 0.4rem 20px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.research-timeline::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0.6rem;
+    bottom: 0.6rem;
+    width: 2px;
+    background: linear-gradient(to bottom, $sln-peach, rgba(17, 100, 102, 0.65));
+}
+.research-timeline .rt-node {
+    position: relative;
+    white-space: nowrap;
+}
+.research-timeline .rt-dot {
+    position: absolute;
+    left: -19px;
+    top: 0.28em;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: $sln-peach;
+    border: 2px solid $sln-dark;
+    box-shadow: 0 0 0 1px rgba(255, 203, 154, 0.5);
+}
+.research-timeline .rt-date {
+    color: $sln-sand;
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    line-height: 1.2;
+}
+.research-timeline .rt-year {
+    display: block;
+    color: $sln-mint;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+// Hover sync: card <-> its timeline date node
+.research-timeline .rt-dot {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.research-timeline .rt-date {
+    transition: color 0.15s ease;
+}
+.research-timeline .rt-node.rt-active .rt-date {
+    color: $sln-peach;
+}
+.research-timeline .rt-node.rt-active .rt-dot {
+    transform: scale(1.4);
+    box-shadow: 0 0 0 4px rgba(255, 203, 154, 0.25);
+}
+// Reverse: hovering a timeline node lifts its matching card
+.research-card.rc-active {
+    transform: translateY(-5px);
+    border-color: $sln-peach;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.45);
+}
+.research-card.rc-active .rc-title {
+    color: $sln-peach;
+}
+.research-card.rc-active .rc-thumb img {
+    transform: scale(1.05);
+}
+
+// On phones, drop the rail and let the cards take the full width.
+@media (max-width: 640px) {
+    .research-layout {
+        gap: 0;
+    }
+    .research-timeline {
+        display: none;
+    }
+}
+.research-card {
+    display: flex;
+    flex-direction: column;
+    background: rgba(31, 38, 35, 0.85);
+    border: 1px solid rgba(209, 232, 226, 0.12);
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none !important;
+    color: $sln-mint;
+    transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+.research-card:hover {
+    transform: translateY(-5px);
+    border-color: $sln-peach;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.45);
+}
+.research-card .rc-thumb {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: $sln-darker;
+}
+.research-card .rc-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center; // show the top of the image (journal/article header)
+    display: block;
+    transition: transform 0.3s ease;
+}
+.research-card:hover .rc-thumb img {
+    transform: scale(1.05);
+}
+.research-card .rc-body {
+    padding: 0.9rem 1rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    flex: 1 1 auto;
+}
+.research-card .rc-meta {
+    color: $sln-sand;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.research-card .rc-title {
+    color: $sln-mint;
+    font-weight: 600;
+    font-size: 0.97rem;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: color 0.18s ease;
+}
+.research-card:hover .rc-title {
+    color: $sln-peach;
+}
+.research-card .rc-authors {
+    margin-top: auto;
+    color: rgba(209, 232, 226, 0.72);
+    font-size: 0.8rem;
+    line-height: 1.35;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.research-card .rc-authors strong {
+    color: $sln-sand;
+    font-weight: 600;
+}
+
+
+// ===== About: interactive vector globe ===== //
+#globe-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem auto 1.5rem;
+}
+#globe {
+    position: relative;
+    width: 100%;
+    max-width: 440px;
+    aspect-ratio: 1 / 1;
+    cursor: grab;
+}
+#globe.grabbing {
+    cursor: grabbing;
+}
+#globe canvas {
+    display: block;
+    margin: 0 auto;
+    touch-action: none; // let drag work on touch without page panning
+}
+#globe-legend {
+    margin-top: 0.7rem;
+    color: $sln-mint;
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+#globe-legend .gl-dot {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: $sln-peach;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+#globe-legend .gl-hint {
+    color: rgba(209, 232, 226, 0.5);
+    margin-left: 10px;
+    font-size: 0.78rem;
+}
+.globe-tip {
+    position: absolute;
+    pointer-events: none;
+    background: rgba(31, 38, 35, 0.95);
+    color: $sln-peach;
+    border: 1px solid rgba(255, 203, 154, 0.4);
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: opacity 0.12s ease;
+    white-space: nowrap;
+    z-index: 5;
+}
+
+// The About floated photos use fixed 400px/300px widths that overflow narrow
+// phones; on small screens stop floating and scale them down, centered.
+@media (max-width: 600px) {
+    #about1-img,
+    #about2-img {
+        float: none !important;
+        display: block;
+        width: min(80%, 320px);
+        margin: 15px auto !important;
+    }
+}
+
+
+// ===== Education & Experience: horizontal scrolling timelines ===== //
+.htl {
+    margin: 1.25rem 0 2.5rem;
+}
+.htl-head {
+    color: $sln-sand;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 0 0 0.5rem;
+}
+.htl-head i {
+    color: $sln-peach;
+    margin-right: 0.4rem;
+}
+// Scroll viewport; fades content at the left/right edges.
+.htl-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 0.4rem;
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 52px, #000 calc(100% - 52px), transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0, #000 52px, #000 calc(100% - 52px), transparent 100%);
+}
+.htl-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+.htl-scroll::-webkit-scrollbar-thumb {
+    background: rgba(209, 232, 226, 0.25);
+    border-radius: 4px;
+}
+.htl-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+// The track holds the items and the horizontal axis line.
+.htl-track {
+    position: relative;
+    display: flex;
+    gap: 1.25rem;
+    width: max-content;
+    padding: 0 52px;
+}
+.htl-track::before {
+    content: "";
+    position: absolute;
+    left: 52px;
+    right: 52px;
+    top: 174px;
+    height: 2px;
+    background: linear-gradient(to right, rgba(17, 100, 102, 0.5), $sln-peach 50%, rgba(17, 100, 102, 0.5));
+}
+.htl-item {
+    position: relative;
+    flex: 0 0 285px;
+    width: 285px;
+    height: 220px;
+}
+// Card sits above the axis line.
+.htl-card {
+    height: 160px;
+    box-sizing: border-box;
+    background: rgba(31, 38, 35, 0.85);
+    border: 1px solid rgba(209, 232, 226, 0.14);
+    border-radius: 10px;
+    padding: 0.7rem 0.8rem;
+    overflow: hidden;
+    transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+.htl-item:hover .htl-card {
+    transform: translateY(-4px);
+    border-color: $sln-peach;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.4);
+}
+.htl-card .htl-title {
+    color: $sln-mint;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.25;
+}
+.htl-card .htl-place {
+    color: $sln-sand;
+    font-size: 0.78rem;
+    margin-top: 0.2rem;
+}
+.htl-card .htl-desc {
+    color: rgba(209, 232, 226, 0.7);
+    font-size: 0.78rem;
+    line-height: 1.32;
+    margin-top: 0.3rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+// Dot pinned on the axis line, date below it.
+.htl-dot {
+    position: absolute;
+    top: 168px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: $sln-peach;
+    border: 2px solid $sln-dark;
+    box-shadow: 0 0 0 1px rgba(255, 203, 154, 0.5);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.htl-item:hover .htl-dot {
+    transform: translateX(-50%) scale(1.35);
+    box-shadow: 0 0 0 4px rgba(255, 203, 154, 0.25);
+}
+.htl-date {
+    position: absolute;
+    top: 190px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: $sln-sand;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
 }
 
 

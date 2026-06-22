@@ -1,0 +1,31 @@
+<h1 style="color: #D9B08C; text-align: center; font-family: 'Jost', sans-serif;">Contact</h1>
+
+---
+
+<p style="text-align: center; color: #D1E8E2; font-size: 1em; margin-bottom: 0;">
+Institute of Marine Sciences of Andalusia (ICMAN-CSIC)
+</p>
+
+<p style="text-align: center; color: #D9B08C; font-size: 0.9em; margin-top: 0;">
+Campus Universitario Río San Pedro, Puerto Real, Cádiz, Spain
+</p>
+
+<!-- Social Media Icons -->
+
+<div class="social-icons">
+
+<a href="mailto:mail.o.belyaev@csic.es"> <i class="fas fa-envelope"></i>
+</a> <a href="https://x.com/OlegBelyaevK" target="_blank">
+<i class="fab fa-square-x-twitter"></i> </a>
+<a href="https://github.com/obkorolev" target="_blank">
+<i class="fab fa-github"></i> </a>
+<a href="https://www.linkedin.com/in/olegbelyaevkorolev/" target="_blank">
+<i class="fab fa-linkedin"></i> </a>
+<a href="https://www.researchgate.net/profile/Oleg-Korolev-2" target="_blank">
+<i class="fab fa-researchgate"></i> </a>
+<a href="https://scholar.google.co.uk/citations?user=M7wfOdwAAAAJ&hl=en" target="_blank">
+<i class="fab fa-google-scholar"></i> </a>
+<a href="https://orcid.org/0000-0002-8851-2996" target="_blank">
+<i class="fab fa-orcid"></i> </a>
+
+</div>

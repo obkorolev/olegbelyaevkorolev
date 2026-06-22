@@ -1,0 +1,7 @@
+<h1 style="color: #D9B08C; text-align: center; font-family: 'Jost', sans-serif;">Fieldwork</h1>
+
+---
+
+<p style="text-align: center; color: #D1E8E2; font-size: 1em;">
+Antarctic campaigns, oceanographic cruises, and drone surveys. Content coming soon.
+</p>

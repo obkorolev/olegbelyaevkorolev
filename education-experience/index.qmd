@@ -1,0 +1,42 @@
+<h1 style="color: #D9B08C; text-align: center; font-family: 'Jost', sans-serif;">Education & Experience</h1>
+
+----
+
+```{=html}
+<div class="htl">
+<div class="htl-head"><i class="fas fa-briefcase"></i>Experience</div>
+<div class="htl-scroll">
+<div class="htl-track">
+<div class="htl-item"><div class="htl-card"><div class="htl-title">Remote Sensing Scientist — Sat4Algae</div><div class="htl-place">ICMAN-CSIC</div><div class="htl-desc">Satellite tools for algal bloom detection; Andalusian Marine Observatory.</div></div><div class="htl-dot"></div><div class="htl-date">Nov 2021–Jul 2022</div></div>
+<div class="htl-item"><div class="htl-card"><div class="htl-title">Remote Sensing Scientist — EuroSea</div><div class="htl-place">ICMAN-CSIC & Marine Institute, Galway, Ireland</div><div class="htl-desc">Observation and warning system for risks from extreme marine events.</div></div><div class="htl-dot"></div><div class="htl-date">Aug 2022–Mar 2023</div></div>
+<div class="htl-item"><div class="htl-card"><div class="htl-title">Remote Sensing Scientist — Marine Strategies</div><div class="htl-place">ICMAN-CSIC, Cádiz, Spain</div><div class="htl-desc">Satellite algorithms for marine heat events; Andalusian Marine Observatory.</div></div><div class="htl-dot"></div><div class="htl-date">May 2023–Dec 2023</div></div>
+<div class="htl-item"><div class="htl-card"><div class="htl-title">PhD Researcher</div><div class="htl-place">ICMAN-CSIC, Cádiz, Spain</div><div class="htl-desc">Antarctic biogeochemistry and remote sensing research.</div></div><div class="htl-dot"></div><div class="htl-date">2024–now</div></div>
+</div>
+</div>
+</div>
+
+<div class="htl">
+<div class="htl-head"><i class="fas fa-graduation-cap"></i>Education</div>
+<div class="htl-scroll">
+<div class="htl-track">
+<div class="htl-item"><div class="htl-card"><div class="htl-title">BSc in Biology</div><div class="htl-place">Alcalá University, Spain</div><div class="htl-desc">Structure and dynamics of living organisms and their interactions with the environment.</div></div><div class="htl-dot"></div><div class="htl-date">2015–2018</div></div>
+<div class="htl-item"><div class="htl-card"><div class="htl-title">BSc Molecular Biology (Erasmus+)</div><div class="htl-place">Umeå University, Sweden</div><div class="htl-desc">Advanced molecular biology and genetics laboratory techniques.</div></div><div class="htl-dot"></div><div class="htl-date">2018–2019</div></div>
+<div class="htl-item"><div class="htl-card"><div class="htl-title">MSc in Oceanography</div><div class="htl-place">Cádiz University · ICMAN-CSIC, Spain</div><div class="htl-desc">Biological, physical, chemical and geological processes in coastal systems.</div></div><div class="htl-dot"></div><div class="htl-date">2020–2021</div></div>
+<div class="htl-item"><div class="htl-card"><div class="htl-title">PhD in Marine Science & Technology</div><div class="htl-place">Cádiz University, Spain</div><div class="htl-desc">Antarctic biogeochemistry and remote sensing research.</div></div><div class="htl-dot"></div><div class="htl-date">2024–now</div></div>
+<div class="htl-item"><div class="htl-card"><div class="htl-title">PhD course: spatial data analysis in ecology with R</div><div class="htl-place">Cádiz University, Spain</div><div class="htl-desc">Space-use analysis, trajectory segmentation and habitat modelling in R (20 h).</div></div><div class="htl-dot"></div><div class="htl-date">Oct 2024</div></div>
+<div class="htl-item"><div class="htl-card"><div class="htl-title">Expert in Data Science</div><div class="htl-place">Datamecum</div><div class="htl-desc">Python data science lifecycle, machine learning and visualisation (200 h).</div></div><div class="htl-dot"></div><div class="htl-date">2025–2026</div></div>
+</div>
+</div>
+</div>
+<script>
+(function(){
+  function rightAlign(){
+    document.querySelectorAll('.htl-scroll').forEach(function(s){ s.scrollLeft = s.scrollWidth; });
+  }
+  rightAlign();
+  window.addEventListener('load', rightAlign);
+  // re-align once fonts/images settle
+  setTimeout(rightAlign, 300);
+})();
+</script>
+```

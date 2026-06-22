@@ -1,20 +1,20 @@
-<h1 style="color: #125F63;text-align: center;font-family: 'Jost', sans-serif;">Education</h1>
+<h1 style="color: #D9B08C;text-align: center;font-family: 'Jost', sans-serif;">Education</h1>
 
 ---
 
-## <span style="color: #f7fff7; font-size: 0.8em; font-family: 'Jost', sans-serif;"> <i class="fas fa-graduation-cap" style="color:#00b4d8;"></i> PhD in Marine Science and Technology </span>
+## <span style="color: #D1E8E2; font-size: 0.8em; font-family: 'Jost', sans-serif;"> <i class="fas fa-graduation-cap" style="color:#FFCB9A;"></i> PhD in Marine Science and Technology </span>
 
 <div style="position: relative; margin-left: 30px; margin-right: 30px;">
-  <p style="font-weight: normal; color: #f7fff7;">Cádiz University, Spain</p>
+  <p style="font-weight: normal; color: #D1E8E2;">Cádiz University, Spain</p>
   
-  <p style="color:#f7fff7; font-size: 0.9em;">Antarctic Biogeochemistry and Remote Sensing research.</p>
+  <p style="color:#D1E8E2; font-size: 0.9em;">Antarctic Biogeochemistry and Remote Sensing research.</p>
   
   <img src="ucalogo.png" alt="MI Logo" 
        style="position: absolute; right: 0; top: 0px; height: 100px; width: auto;">
   
   <p style="font-size: 0.9em;">January 2024 – ongoing</p>
   
-  <ul style="font-size: 0.9em; color: #f7fff7;">
+  <ul style="font-size: 0.9em; color: #D1E8E2;">
     <li>Antarctic Biogeochemistry and Remote Sensing research.</li>
   </ul>
 </div>
@@ -22,41 +22,41 @@
 
 ---
 
-## <span style="color: #f7fff7;font-size: 0.8em;font-family: 'Jost', sans-serif;"><i class="fas fa-graduation-cap" style="color:#00b4d8;"></i> MSc in Oceanography</span>
+## <span style="color: #D1E8E2;font-size: 0.8em;font-family: 'Jost', sans-serif;"><i class="fas fa-graduation-cap" style="color:#FFCB9A;"></i> MSc in Oceanography</span>
 <div style="position: relative; margin-left: 30px; margin-right: 30px;">
-  <p style="font-weight: normal; color: #f7fff7;">Cadiz University - ICMAN-CSIC, Spain</p>
+  <p style="font-weight: normal; color: #D1E8E2;">Cadiz University - ICMAN-CSIC, Spain</p>
   <p style="font-size: 0.9em;">September 2020 – September 2021</p>
   
-  <p style="font-size: 0.9em; color: #f7fff7;">Deep understanding of biological, physical, chemical and geological<br>
+  <p style="font-size: 0.9em; color: #D1E8E2;">Deep understanding of biological, physical, chemical and geological<br>
   processes in coastal oceanic systems.</p>
   
-  <p style="color: #f7fff7;">Courses included:</p>
+  <p style="color: #D1E8E2;">Courses included:</p>
   
   <img src="ucalogo.png" alt="University Logo" 
        style="position: absolute; right: 0; top: 0px; height: 100px; width: auto;">
   
-  <ul style="font-size: 0.9em; color: #f7fff7;">
+  <ul style="font-size: 0.9em; color: #D1E8E2;">
     <li>Physical, chemical, ecological and geological oceanography</li>
   </ul>
 </div>
 
 ---
 
-## <span style="color: #f7fff7;font-size: 0.8em;font-family: 'Jost', sans-serif;"><i class="fas fa-graduation-cap" style="color:#00b4d8;"></i> BSc Molecular Biology (Erasmus+)</span>
+## <span style="color: #D1E8E2;font-size: 0.8em;font-family: 'Jost', sans-serif;"><i class="fas fa-graduation-cap" style="color:#FFCB9A;"></i> BSc Molecular Biology (Erasmus+)</span>
 
 <div style="position: relative; margin-left: 30px; margin-right: 30px;">
-  <p style="font-weight: normal; color: #f7fff7;">Umeå University, Sweden</p>
+  <p style="font-weight: normal; color: #D1E8E2;">Umeå University, Sweden</p>
   <p style="font-size: 0.9em;">September 2018 – September 2019</p>
   
-  <p style="font-size: 0.9em; color: #f7fff7;">
+  <p style="font-size: 0.9em; color: #D1E8E2;">
     Advanced molecular biology and genetics laboratory techniques.
   </p>
-  <p style="color: #f7fff7;">Courses included:</p>
+  <p style="color: #D1E8E2;">Courses included:</p>
   
   <img src="umealogo.png" alt="University Logo" 
        style="position: absolute; right: 0; top: 0px; height: 90px; width: auto;">
   
-  <ul style="font-size: 0.9em; color: #f7fff7;">
+  <ul style="font-size: 0.9em; color: #D1E8E2;">
     <li>Molecular Genetics</li>
     <li>Neurobiology</li>
     <li>Microbiology</li>
@@ -65,13 +65,13 @@
 
 ---
 
-## <span style="color: #f7fff7;font-size: 0.8em;font-family: 'Jost', sans-serif;"><i class="fas fa-graduation-cap" style="color:#00b4d8;"></i> BSc in Biology</span>
+## <span style="color: #D1E8E2;font-size: 0.8em;font-family: 'Jost', sans-serif;"><i class="fas fa-graduation-cap" style="color:#FFCB9A;"></i> BSc in Biology</span>
 
 <div style="position: relative; margin-left: 30px; margin-right: 30px;">
-  <p style="font-weight: normal; color: #f7fff7;">Alcala University, Spain</p>
+  <p style="font-weight: normal; color: #D1E8E2;">Alcala University, Spain</p>
   <p style="font-size: 0.9em;">September 2015 – September 2018</p>
   
-  <p style="font-size: 0.9em; color: #f7fff7;">
+  <p style="font-size: 0.9em; color: #D1E8E2;">
     Understanding of the basic structures and dynamics<br>
     of living organisms and their interactions with their environment.
   </p>
@@ -83,41 +83,41 @@
 
 
 
-<h1 style="color: #125F63;text-align: center;font-family: 'Jost', sans-serif;">Courses</h1>
+<h1 style="color: #D9B08C;text-align: center;font-family: 'Jost', sans-serif;">Courses</h1>
 
 ---
 
-## <span style="color: #f7fff7; font-size: 0.8em; font-family: 'Jost', sans-serif;"> <i class="fas fa-graduation-cap" style="color:#00b4d8;"></i> PhD Course in spatial data analysis in ecology with R</span>
+## <span style="color: #D1E8E2; font-size: 0.8em; font-family: 'Jost', sans-serif;"> <i class="fas fa-graduation-cap" style="color:#FFCB9A;"></i> PhD Course in spatial data analysis in ecology with R</span>
 
 <div style="margin-left: 30px;">
-  <p style="font-weight: normal;color:#f7fff7">Cádiz University, Spain</p>
+  <p style="font-weight: normal;color:#D1E8E2">Cádiz University, Spain</p>
   <p style="font-size: 0.9em;">October 2024</p>
   
-  <ul style="font-size: 0.9em;color:#f7fff7">
+  <ul style="font-size: 0.9em;color:#D1E8E2">
       <li>Built foundational skills in spatial analysis using GIS data concepts and R setup for data visualization, cleaning, and GPS data import.</li>
       <li>Applied space-use analysis (MCP, KDE) and trajectory segmentation (EMBC, HMM) to study movement patterns and behaviors in R.</li>
       <li>Conducted habitat modeling by integrating GPS and environmental data, building and validating habitat suitability models in R.</li>
       <li>20 hours</li>
   </ul>
 
-</div> <hr style="border-top: 1px solid #f7fff7; opacity: 0.2; margin: 20px 0;">
+</div> <hr style="border-top: 1px solid #D1E8E2; opacity: 0.2; margin: 20px 0;">
 
 
 
-## <span style="color: #f7fff7; font-size: 0.8em; font-family: 'Jost', sans-serif;"> <i class="fas fa-graduation-cap" style="color:#00b4d8;"></i> Expert in Data Science</span>
+## <span style="color: #D1E8E2; font-size: 0.8em; font-family: 'Jost', sans-serif;"> <i class="fas fa-graduation-cap" style="color:#FFCB9A;"></i> Expert in Data Science</span>
 
 <div style="margin-left: 30px;">
-  <p style="font-weight: normal;color:#f7fff7">Datamecum</p>
+  <p style="font-weight: normal;color:#D1E8E2">Datamecum</p>
   <p style="font-size: 0.9em;">August 2025 - April 2026</p>
   
-  <ul style="font-size: 0.9em;color:#f7fff7">
+  <ul style="font-size: 0.9em;color:#D1E8E2">
       <li>Comprehensive training in the data science lifecycle, utilizing Python for data manipulation, cleaning, and analysis (Pandas, NumPy).</li>
       <li>Applied machine learning algorithms and statistical modeling techniques to extract actionable insights from complex datasets.</li>
       <li>Developed proficiency in data visualization and storytelling to communicate findings effectively.</li>
       <li>200 hours</li>
   </ul>
 
-</div> <hr style="border-top: 1px solid #f7fff7; opacity: 0.2; margin: 20px 0;">
+</div> <hr style="border-top: 1px solid #D1E8E2; opacity: 0.2; margin: 20px 0;">
 
 
 

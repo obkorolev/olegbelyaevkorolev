@@ -15,7 +15,7 @@
   
   /* Estilo del título del artículo */
   .article-title {
-    color: #f7fff7; /* Color del texto del título */
+    color: #D1E8E2; /* Color del texto del título */
     font-size: 1.5em; /* Ajusta el tamaño del texto según sea necesario */
     font-family: Jost; /* Fuente sans-serif */
     margin-top: 20px; /* Espacio entre la imagen y el título */
@@ -31,20 +31,20 @@
 </p>
 
 
-  <a href="https://www.nature.com/articles/s41467-023-37132-5" style="color: #f7fff7;font-family: 'Jost', sans-serif; text-decoration: none;">
+  <a href="https://www.nature.com/articles/s41467-023-37132-5" style="color: #D1E8E2;font-family: 'Jost', sans-serif; text-decoration: none;">
     The Fear of AI: Origins and the Path to Utopia
   </a>
 </div>
 
 <div style="text-align: center;">
-  <span style="font-size: 0.9em; color: #78cdd7;">
-  Extracted from my dear cousin's blog <a href="https://vovsn.com/" style="color: #f7fff7;font-family: 'Jost', sans-serif; text-decoration: none;">
+  <span style="font-size: 0.9em; color: #D9B08C;">
+  Extracted from my dear cousin's blog <a href="https://vovsn.com/" style="color: #D1E8E2;font-family: 'Jost', sans-serif; text-decoration: none;">
     www.vovsn.com
   </a>
   
 ----
 <div style="text-align: justify;">
-  <p style="color: #f7fff7; font-size: 1em;">
+  <p style="color: #D1E8E2; font-size: 1em;">
   The notion that Artificial Intelligence (AI) will inevitably clash with humanity is a pervasive theme in blockbuster movies. Films like The Terminator or Ex Machina depict AI as a source of suffering, struggle, and tragedy—hallmarks of a genre that thrives on high stakes and emotional turmoil. This is no accident; the law of cinematic storytelling demands conflict to draw audiences. A movie showcasing a utopian future where AI and humans coexist peacefully might be dismissed as uneventful, failing to fill theater seats. Even the ancient Greeks understood this: their tragedies, filled with human downfall and divine retribution, were the blockbusters of their day, proving that tales of woe have always captivated us. As a result, modern cinema bombards us with images of AI-driven wars and human despair, embedding a narrative of inevitable conflict in our collective imagination.
 
 This cinematic influence shapes public perception more than we might realize. After watching these films, many begin to believe that a war with AI is not just possible but destined. This fear isn’t entirely baseless—it taps into a primordial, tribal instinct, a deep-seated dread that an outsider will arrive to seize our resources or threaten our lives. AI, with its potential to outthink and outpace us, becomes the ultimate "other," a modern echo of ancient enemies lurking beyond the village walls. Yet, this fear is largely a product of fiction, not a reflection of AI’s true trajectory. To dismiss it as nonsense might oversimplify the issue, but it’s fair to say that our anxieties are amplified by stories designed to thrill rather than inform.
@@ -97,10 +97,10 @@ In this light, the "end of time" isn’t a curtain falling but a door opening. T
 
 ```{=html}
 <div style="display: flex; justify-content: center; gap: 20px; margin: 30px;">
-    <a href="#" style="color: #125F63; text-decoration: underline; font-size: 1em; font-weight: bold;">
+    <a href="#" style="color: #D9B08C; text-decoration: underline; font-size: 1em; font-weight: bold;">
         Back to top of page
     </a>
-    <a href="../blog" style="color: #125F63; text-decoration: underline; font-size: 1em; font-weight: bold;">
+    <a href="../blog" style="color: #D9B08C; text-decoration: underline; font-size: 1em; font-weight: bold;">
         Back to blog
     </a>
     

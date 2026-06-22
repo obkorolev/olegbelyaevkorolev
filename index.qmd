@@ -1,70 +1,35 @@
 ---
-about:
-  template: jolla
-  id: about-block
-editor: 
-  markdown: 
-    wrap: 72
+pagetitle: "Oleg Belyaev | Oceanographer & GIS Scientist"
 ---
 
-<!-- The video -->
+<video autoplay muted loop playsinline id="myVideo"><source src="img/videoback3.mp4" type="video/mp4"></video>
 
-<video autoplay muted loop id="myVideo">
+<div class="home-hero">
+<div class="home-photo"><img src="img/perfil_ecos_web.jpg" alt="Oleg Belyaev"/></div>
+<div class="home-text"><div class="name">Oleg Belyaev</div><p class="subtitle">Oceanographer &amp; GIS Scientist</p><p class="affil">PhD student at ICMAN-CSIC</p><div class="social-icons"><a href="mailto:mail.o.belyaev@csic.es"><i class="fas fa-envelope"></i></a> <a href="https://x.com/OlegBelyaevK" target="_blank"><i class="fab fa-square-x-twitter"></i></a> <a href="https://github.com/obkorolev" target="_blank"><i class="fab fa-github"></i></a> <a href="https://www.linkedin.com/in/olegbelyaevkorolev/" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://www.researchgate.net/profile/Oleg-Korolev-2" target="_blank"><i class="fab fa-researchgate"></i></a> <a href="https://scholar.google.co.uk/citations?user=M7wfOdwAAAAJ&hl=en" target="_blank"><i class="fab fa-google-scholar"></i></a> <a href="https://orcid.org/0000-0002-8851-2996" target="_blank"><i class="fab fa-orcid"></i></a></div><p class="welcome">Welcome to my website! Having grown up among two different cultures and languages allowed me to obtain a global vision and develop critical thinking, acquiring great ability in problem approaching and solving. Graduated in <strong>Biology</strong> and with a <strong>MSc in Coastal Oceanography</strong>, I am currently enrolled in a <strong>PhD program in Antarctic biogeochemistry research and earth observation</strong> in the DICHOSO project framework, at the Institute of Marine Sciences of Andalusia (CSIC).</p><div class="home-cta"><a class="cv-btn" id="cv-preview-btn" role="button" tabindex="0">Preview CV</a> <a class="cv-btn cv-btn-outline" href="cv/CV_2025_OBK.pdf" download>Download CV</a></div></div>
+</div>
 
-<source src="img/videoback3.mp4" type="video/mp4">
+<section class="cv-preview" id="cv-preview" data-pdf="cv/CV_2025_OBK.pdf"><div class="cv-preview-inner"><iframe class="cv-frame" title="Curriculum Vitae of Oleg Belyaev" src=""></iframe><a class="cv-btn" href="cv/CV_2025_OBK.pdf" download>Download CV</a></div></section>
 
-</video>
-
-<img src="img/perfil_ecos_web.jpg" alt="Oleg Belyaev" id="profile-img"/>
-
-<h1 style="text-align: center;color: #00b4d8; font-size: 2em; font-weight: bold; margin-bottom: 10px;">
-
-Oleg Belyaev
-
-</h1>
-
-<p style="text-align: center; color:#125F63; font-size: 1em; margin-bottom: 0; font-weight: bold;">
-
-Oceanographer & GIS Scientist
-
-</p>
-
-<p style="text-align: center; color:#125F63; font-size: 0.8em; margin-top: 0; margin-bottom: 30px;">
-
-PhD STUDENT AT ICMAN-CSIC
-
-</p>
-
-<!-- Social Media Icons -->
-
-<div class="social-icons">
-
-<a href="mailto:mail.o.belyaev@csic.es"> <i class="fas fa-envelope"></i>
-</a> <a href="https://x.com/OlegBelyaevK" target="_blank">
-<i class="fab fa-square-x-twitter"></i> </a>
-<a href="https://github.com/obkorolev" target="_blank">
-<i class="fab fa-github"></i> </a>
-<a href="https://www.linkedin.com/in/olegbelyaevkorolev/" target="_blank">
-<i class="fab fa-linkedin"></i> </a>
-<a href="https://www.researchgate.net/profile/Oleg-Korolev-2" target="_blank">
-<i class="fab fa-researchgate"></i> </a>
-<a href="https://scholar.google.co.uk/citations?user=M7wfOdwAAAAJ&hl=en" target="_blank">
-<i class="fab fa-google-scholar"></i> </a>
-<a href="https://orcid.org/0000-0002-8851-2996" target="_blank">
-<i class="fab fa-orcid"></i> </a>
-
-------------------------------------------------------------------------
-
-<p style="text-align: justify; color: #f7fff7; font-size: 1em;">
-
-Welcome to my website! Having grown up among two different cultures and
-languages allowed me to obtain a global vision and develop critical
-thinking, acquiring great ability in problem approaching and solving.
-Graduated in <strong style="color: #00b4d8;">Biology</strong> and with a
-<strong style="color: #00b4d8;">MSc in Coastal Oceanography</strong>, I
-am currently enrolled in a <strong style="color: #00b4d8;">PhD program
-in Antarctic biogeochemistry research and earth observation</strong> in
-the DICHOSO project framework, at the Institute of Marine Sciences of
-Andalusia (CSIC).
-
-</p>
+<script>
+(function(){
+  var btn = document.getElementById('cv-preview-btn');
+  var panel = document.getElementById('cv-preview');
+  if(!btn || !panel) return;
+  var frame = panel.querySelector('.cv-frame');
+  var loaded = false;
+  function toggle(){
+    var open = document.body.classList.toggle('cv-open');
+    if(open){
+      if(!loaded){ frame.src = panel.dataset.pdf; loaded = true; }
+      btn.textContent = 'Hide CV';
+      setTimeout(function(){ panel.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 80);
+    } else {
+      btn.textContent = 'Preview CV';
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+  btn.addEventListener('click', toggle);
+  btn.addEventListener('keydown', function(e){ if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); toggle(); } });
+})();
+</script>

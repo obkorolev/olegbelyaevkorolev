@@ -14,7 +14,7 @@
   
   /* Estilo del título del artículo */
   .article-title {
-    color: #f7fff7; /* Color del texto del título */
+    color: #D1E8E2; /* Color del texto del título */
     font-size: 1.5em; /* Ajusta el tamaño del texto según sea necesario */
     font-family: Jost; /* Fuente sans-serif */
     margin-top: 20px; /* Espacio entre la imagen y el título */
@@ -24,7 +24,7 @@
 
 <!-- Título del artículo como enlace al DOI -->
 <div class="article-title">
-  <a href="https://www.nature.com/articles/s41467-023-37132-5" style="color: #f7fff7;font-family: 'Jost', sans-serif; text-decoration: none;">
+  <a href="https://www.nature.com/articles/s41467-023-37132-5" style="color: #D1E8E2;font-family: 'Jost', sans-serif; text-decoration: none;">
     The contribution of penguin guano to the Southern Ocean iron pool
   </a>
 </div>
@@ -35,7 +35,7 @@
 
 
 <div style="text-align: center;">
-  <span style="font-size: 0.9em; color: #78cdd7;">
+  <span style="font-size: 0.9em; color: #D9B08C;">
   <strong>Oleg Belyaev</strong>, Erica Sparaventi, Gabriel Navarro, Araceli Rodríguez-Romero & Antonio Tovar-Sánchez.
   
 ----
@@ -44,7 +44,7 @@
 
 ```{=html}
 <p style="text-align: center; margin: 30px;">
-    <a href="/publications/index.qmd" style="color: #125F63; text-decoration: underline; font-size: 1em; font-weight: bold;">
+    <a href="/publications/index.qmd" style="color: #D9B08C; text-decoration: underline; font-size: 1em; font-weight: bold;">
         Back to publications
     </a>
 </p>
