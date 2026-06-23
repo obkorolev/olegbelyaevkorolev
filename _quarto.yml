@@ -35,16 +35,16 @@ website:
   search: false
   page-footer:
     left: |
-      <span class="faux-block"><a href="/0x90A60D6A-pub.asc" target="_blank" style="color: #D1E8E2; text-decoration: none;"><i class="fas fa-key" style="color:#FFCB9A;"></i> PGP public key</a></span>
+      <span class="faux-block"><a href="/0xA03AE911-pub.asc" target="_blank" style="color: #D1E8E2; text-decoration: none;"><i class="fas fa-key" style="color:#FFCB9A;"></i> PGP public key</a></span>
       <span class="faux-block"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" style="color: #D1E8E2; text-decoration: none;"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i> <i class="fab fa-creative-commons-sa"></i> CC BY-NC-SA 4.0</a></span>
     right: |
-      <span class="faux-block" style="color: #D1E8E2;">&#169; 2025 Oleg Belyaev - Made with <a href="https://quarto.org/" target="_blank" style="color: #FFCB9A; text-decoration: underline;">Quarto</a></span>
+      <span class="faux-block" style="color: #D1E8E2;">&#169; 2026 Oleg Belyaev - Made with <a href="https://quarto.org/" target="_blank" style="color: #FFCB9A; text-decoration: underline;">Quarto</a></span>
 
 project:
   type: website
   output-dir: docs
   resources:
-    - 0x90A60D6A-pub.asc
+    - 0xA03AE911-pub.asc
 
   preview:
     port: 22222

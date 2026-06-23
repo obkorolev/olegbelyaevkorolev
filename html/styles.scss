@@ -428,7 +428,8 @@ body:has(.home-hero) .nav-footer-center {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    align-content: center;
+    align-content: safe center; // if content is taller than the hero, fall back to
+                                // top-align so the photo never hides under the navbar
     justify-content: center;
     gap: clamp(1.25rem, 4vw, 3.5rem);
     // full-bleed: break out of the centered content column to the viewport edges
@@ -449,8 +450,8 @@ body:has(.home-hero) .nav-footer-center {
     flex: 0 0 auto;
 }
 .home-photo img {
-    width: clamp(160px, 31vmin, 400px);
-    height: clamp(160px, 31vmin, 400px);
+    width: clamp(180px, 34vmin, 420px);
+    height: clamp(180px, 34vmin, 420px);
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid $sln-mint;
@@ -588,51 +589,52 @@ body.cv-open .home-hero {
     min-height: 100svh;
 }
 
-// On phones the two columns can't sit side by side without crushing the
-// text, so stack them (photo on top) and center, still within one viewport.
+// On phones the two-column no-scroll hero can't hold the photo + long intro +
+// CV buttons + footer in one viewport, so it stacks AND scrolls normally:
+// release the desktop no-scroll lock, lay out a centred column, and give the
+// hero enough top padding to clear the fixed navbar (+ iOS safe area).
 @media (max-width: 640px) {
+    html:has(.home-hero),
+    body:has(.home-hero) {
+        overflow: visible;
+        height: auto;
+    }
+    body:has(.home-hero) {
+        display: block;
+        min-height: 0;
+    }
+    body:has(.home-hero) #quarto-content,
+    body:has(.home-hero) #quarto-document-content,
+    body:has(.home-hero) .page-columns,
+    body:has(.home-hero) main.content {
+        display: block;
+        overflow: visible;
+        min-height: 0 !important;
+    }
+    .home-hero {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        height: auto;
+        min-height: auto;
+        overflow: visible;
+        gap: 0.7rem;
+        padding: calc(env(safe-area-inset-top, 0px) + 90px) 1.25rem 2rem;
+    }
+    .home-photo img {
+        width: clamp(150px, 44vw, 230px);
+        height: clamp(150px, 44vw, 230px);
+    }
     .home-text {
-        flex-basis: 100%;
+        flex-basis: auto;
         text-align: center;
     }
     .home-text .social-icons,
     .home-text .welcome {
         text-align: center;
     }
-}
-
-// Compact / short viewports: shrink everything so the stacked hero still fits
-// in one screen without scrolling or clipping the welcome text.
-@media (max-width: 420px), (max-height: 700px) {
-    .home-hero {
-        gap: clamp(0.4rem, 1.8vh, 1rem);
-        // top padding must clear the ~87px fixed navbar on phones
-        padding: clamp(92px, 13vh, 104px) 1.1rem clamp(0.5rem, 2vh, 1rem);
-    }
-    .home-photo img {
-        width: clamp(92px, 17vmin, 170px);
-        height: clamp(92px, 17vmin, 170px);
-    }
-    .home-text .name {
-        font-size: clamp(1.45rem, 6.5vmin, 2.4rem);
-    }
-    .home-text .subtitle {
-        font-size: clamp(0.85rem, 3.4vmin, 1.1rem);
-    }
-    .home-text .affil {
-        margin: 0.1em 0 0.3em;
-    }
-    .home-text .social-icons {
-        margin-top: 0.15rem;
-    }
-    .home-text .social-icons i {
-        font-size: clamp(16px, 4.4vmin, 20px);
-    }
-    .home-text .welcome {
-        margin-top: 0.35rem;
-        line-height: 1.3;
-        font-size: clamp(0.68rem, 2.9vmin, 0.86rem);
-        text-align: justify;
+    .home-cta {
+        justify-content: center;
     }
 }
 
@@ -1046,6 +1048,16 @@ body.cv-open .home-hero {
     object-fit: cover;
     display: block;
     transition: transform 0.4s ease;
+    pointer-events: none; // clicks go to the figure; also blocks direct drag
+}
+// Deter casual copying of the photos (drag-to-save, text select, iOS long-press
+// save menu). This is a deterrent only; the baked-in watermark is the real guard.
+.fdwk-item img,
+.fdwk-lb-img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
 }
 .fdwk-item:hover img {
     transform: scale(1.07);
